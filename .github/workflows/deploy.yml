@@ -1,0 +1,31 @@
+name: ci:deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      BASEURL: '/black-solidarity-day'
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: install
+        run: gem install bundler && bundle
+      - name: test
+        run: bundle exec rake test
+      - name: prod build
+        run: bundle exec rake reset && bundle exec rake build
+      - name: deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{secrets.FTP_SERVER}}
+          username: ${{secrets.FTP_USERNAME}}@${{secrets.FTP_SERVER}}
+          password: ${{secrets.FTP_PASSWORD}}
+          local-dir: ./_site/
+          server-dir: black-solidarity-day/

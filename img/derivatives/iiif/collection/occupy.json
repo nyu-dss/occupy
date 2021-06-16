@@ -1,0 +1,76 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/occupy.json",
+  "@type": "sc:Collection",
+  "label": "occupy",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS017/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS017"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS016/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS016"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS007_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS007_1"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS041/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS041"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS031_01/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS031_01"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS031_02/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS031_02"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS037/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS037"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS012_4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS012_4"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS034/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS034"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS018/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS018"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS012_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS012_1"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS033/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS033"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS012_3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS012_3"
+    }
+  ]
+}

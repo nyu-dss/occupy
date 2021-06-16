@@ -1,0 +1,102 @@
+---
+sitemap: false
+---
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,600;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+/* branding */
+$logo: url("{{ '/assets/logo.png' | absolute_url }}");
+
+/* text */
+
+$body-font:       'Work Sans', 'sans-serif';
+$heading-font:    'Work Sans', 'sans-serif';
+
+
+/* Image Size */
+
+$thumbnail-height: 140px;
+$thumbnail-width: 140px;
+
+/* colors */
+
+$text-color:      #100c01;
+$bg-color:        #ffffff;
+$neutral:         #edebf0; //#eae7de;
+$accent-light:    #9046CF;
+$accent-dark:     #4A00A0;
+
+/* viewport sizes */
+
+$max-width:       800px;
+
+/* margins */
+
+$less-margin:     1.0rem;
+$margin:          1.5rem;
+$more-margin:     2.0rem;
+$super-margin:    3.0rem;
+
+
+$viewer-height:   550px;
+$parallax-height: 350px;
+$footer-height:   250px;
+
+/*
+font & asset import
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&font-display=auto');
+@import 'wax';
+
+.parallax-image {
+  blockquote{
+    opacity: .9;
+    font-size: 1.4em;
+    max-width: 90%;
+    width: 800px;
+    margin: 0 auto;
+    font-style:italic;
+    color:$text-color;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid $accent-light;
+    line-height:1.6;
+    position: absolute;
+    background:$neutral;
+  }
+
+  blockquote::before{
+    content: "\201C";
+    color:$accent-light;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+
+  blockquote::after{
+    content: '';
+  }
+
+  blockquote span{
+    display:block;
+    color:$text-color;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  }
+}
+
+.top-banner{
+  margin-bottom: 0;
+}
+
+.custom-brand {
+  font-family: 'Cabin Sketch', 'Work Sans', 'sans-serif';
+  text-transform: uppercase;
+  line-height: 80%;
+}
+#wax-main h3 {
+  font-family: 'Cabin Sketch', 'Work Sans', 'sans-serif';
+  text-transform: uppercase;
+}
