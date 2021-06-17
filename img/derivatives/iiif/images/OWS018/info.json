@@ -5,12 +5,12 @@ layout: none
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS018",
   "protocol": "http://iiif.io/api/image",
-  "width": 5065,
-  "height": 3236,
+  "width": 5000,
+  "height": 3194,
   "sizes": [
     {
-      "width": 5065,
-      "height": 3236
+      "width": 5000,
+      "height": 3194
     },
     {
       "width": 250,

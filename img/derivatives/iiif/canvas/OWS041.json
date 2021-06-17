@@ -5,8 +5,8 @@ layout: none
   "@type": "sc:Canvas",
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS041.json",
   "label": "front",
-  "width": 6319,
-  "height": 7319,
+  "width": 5000,
+  "height": 5791,
   "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS041/full/250,/0/default.jpg",
   "images": [
     {
@@ -16,14 +16,14 @@ layout: none
       "resource": {
         "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS041/full/full/0/default.jpg",
         "@type": "dcterms:Image",
-        "format": "image/jpeg",
+        "format": "tiffload_source",
         "service": {
           "@context": "http://iiif.io/api/image/2/context.json",
           "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS041",
           "profile": "http://iiif.io/api/image/2/level0.json"
         },
-        "width": 6319,
-        "height": 7319
+        "width": 5000,
+        "height": 5791
       },
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS041.json"
     }

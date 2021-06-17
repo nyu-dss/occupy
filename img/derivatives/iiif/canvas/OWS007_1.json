@@ -16,7 +16,7 @@ layout: none
       "resource": {
         "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS007_1/full/full/0/default.jpg",
         "@type": "dcterms:Image",
-        "format": "image/jpeg",
+        "format": "tiffload_source",
         "service": {
           "@context": "http://iiif.io/api/image/2/context.json",
           "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS007_1",

@@ -43,6 +43,7 @@ exclude:
   - vendor
   - spec
   - README.md
+  - Dockerfile
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
