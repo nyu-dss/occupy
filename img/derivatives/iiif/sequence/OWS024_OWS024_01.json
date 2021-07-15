@@ -1,0 +1,63 @@
+{
+  "@id": "/occupy/img/derivatives/iiif/sequence/OWS024_OWS024_01.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS024_OWS024_01.json",
+      "label": "Page 1",
+      "width": 4738,
+      "height": 5690,
+      "thumbnail": "/occupy/img/derivatives/iiif/images/OWS024_OWS024_01/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS024_OWS024_01.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "/occupy/img/derivatives/iiif/images/OWS024_OWS024_01/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "tiffload_source",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "/occupy/img/derivatives/iiif/images/OWS024_OWS024_01",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 4738,
+            "height": 5690
+          },
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS024_OWS024_01.json"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS024_OWS024_02.json",
+      "label": "Page 2",
+      "width": 4683,
+      "height": 6109,
+      "thumbnail": "/occupy/img/derivatives/iiif/images/OWS024_OWS024_02/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS024_OWS024_02.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "/occupy/img/derivatives/iiif/images/OWS024_OWS024_02/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "tiffload_source",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "/occupy/img/derivatives/iiif/images/OWS024_OWS024_02",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 4683,
+            "height": 6109
+          },
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS024_OWS024_02.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
