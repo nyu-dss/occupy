@@ -6,19 +6,19 @@ layout: none
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS015",
   "protocol": "http://iiif.io/api/image",
   "width": 5000,
-  "height": 3546,
+  "height": 6452,
   "sizes": [
     {
       "width": 5000,
-      "height": 3546
+      "height": 6452
     },
     {
       "width": 250,
-      "height": 178
+      "height": 323
     },
     {
       "width": 1140,
-      "height": 808
+      "height": 1471
     }
   ],
   "profile": [

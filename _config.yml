@@ -1,40 +1,37 @@
-# ==============================================================
-# WAX CONFIGURATION
-# ==============================================================
-# Jekyll configuration files are written in YAML format.
-# Colons, tabs/spacing, and quotes are meaningful in YAML.
-# It is recommended you look at the following guide to avoid
-# syntax errors in this file:
-# ~> https://learnxinyminutes.com/docs/yaml/
-#
-#
-# Questions ?
-# ~> https://minicomp.github.io/wiki/#/
-# ~> https://gitter.im/minicomp/wax/
-#
-# ---------------------------------------------------------------
-# MAIN SETTINGS
-# ---------------------------------------------------------------
-# Feel free to change these! For more info, refer to:
-# ~> https://jekyllrb.com/docs/configuration/options/
-
-title:            'Occupy Wall Street'
+title:            Occupy Wall Street
 description:      ''
 url:              ''
-baseurl:          '/occupy'
-logo:             '/assets/logo.png'
+baseurl:          /occupy
+logo:             /assets/logo.png
 
-# ---------------------------------------------------------------
-# BUILD SETTINGS
-# ---------------------------------------------------------------
-# Best not to mess with these unless you know what you're doing!
-plugins:
-  - jekyll-remote-theme
-remote_theme: 'minicomp/wax@data-from-submodule'
-permalink: 'pretty'
-incremental: true
-livereload: true
-open_url: true
+permalink:        pretty
+incremental:      true
+theme:            wax_theme
+
+collections:
+  occupy:
+    output: true
+    layout: occupy_item
+    metadata:
+      source: occupy.csv
+    images:
+      source: images
+
+menu:
+  - label: About
+    link: /about/
+  - label: Get Involved
+    link: /get-involved/
+  - label: Resources
+    link: /resources/
+  - label: Browse the Exhibition
+    link: /exhibition/
+
+footer:
+  links:
+    - label: NYU Special Collections
+      link: 'https://library.nyu.edu/locations/special-collections-center/'
+
 sass:
   style: compressed
 exclude:
@@ -47,6 +44,7 @@ exclude:
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
+
 kramdown:
  auto_ids:       true
  footnote_nr:    1
@@ -55,63 +53,3 @@ kramdown:
  toc_levels:     1..6
  smart_quotes:   lsquo,rsquo,ldquo,rdquo
  enable_coderay: false
-
-
-# --------------------------------------------------------------
-# COLLECTION SETTINGS
-# --------------------------------------------------------------
-# Wax leverages Jekyll collections for much of its
-# functionality, therefor some of the keys below are from
-# Jekyll while others are Wax-specific.
-# For more info, refer to:
-# ~> https://jekyllrb.com/docs/collections/
-
-collections:
-  occupy: # name of collection
-    output: true # makes sure pages are output as html files
-    layout: 'occupy_item' # the layout for the pages to use
-    metadata:
-      source: 'occupy.csv' # path to the metadata file within `_data`
-    images:
-      source: 'images' # path to the directory of images within `_data`
-
-# --------------------------------------------------------------
-# SEARCH INDEX SETTINGS
-# --------------------------------------------------------------
-# You can create multiple search indexes below (though only one is
-# recommended!) by specifying
-# an `index` file to write it to and some `collections` for it to index
-# and running `$ bundle exec rake wax:search` .
-
-# search:
-#   main:
-#     index: '/search/index.json' # file the index will get written to
-
-# --------------------------------------------------------------
-# SITE MENU SETTINGS
-# --------------------------------------------------------------
-# Each menu item needs a `label` (whats shown), and a `link`
-# (where it goes). An item can optionally have a dropdown
-# submenu via `sub`.
-
-menu:
-  - label: 'About'
-    link: '/about/'
-  - label: 'Get Involved'
-    link: '/get-involved/'
-  - label: 'Resources'
-    link: '/resources/'
-  - label: 'Browse the Exhibition'
-    link: '/exhibition/'
-
-# --------------------------------------------------------------
-# SITE FOOTER SETTINGS
-# --------------------------------------------------------------
-#
-
-footer:
-  links:
-    - label: 'NYU Special Collections'
-      link: 'https://library.nyu.edu/locations/special-collections-center/'
-
-# FIN

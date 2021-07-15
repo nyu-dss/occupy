@@ -15,7 +15,7 @@ layout: none
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
     "width": 5000,
-    "height": 3503
+    "height": 3550
   },
   "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS026.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"
