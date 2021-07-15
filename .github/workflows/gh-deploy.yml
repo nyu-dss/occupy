@@ -9,6 +9,8 @@ jobs:
    deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: install libvips
+        run: sudo apt-get update && sudo apt-get install -y libvips libvips-dev
       - uses: actions/checkout@v2
         with:
           fetch-depth: 1
