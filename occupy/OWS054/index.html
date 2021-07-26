@@ -4,10 +4,10 @@
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    Occupy Wall Street | About
+    Occupy Wall Street | Ows054
   </title>
 
-  <link rel='canonical' href='/occupy/about/'/>
+  <link rel='canonical' href='/occupy/occupy/OWS054/'/>
   <link rel='icon' type='image/png' href="/occupy/img/logo.png">
   <link rel='stylesheet' href="/occupy/assets/styles.css"/>
 
@@ -17,7 +17,7 @@
 
 
   <body>
-    <time datetime='2021-07-15 00:35'></time>
+    <time datetime='2021-07-26 23:23'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
     <a class='navbar-brand custom-brand' href="/occupy/" title='Home' alt='Occupy Wall Street'>
@@ -35,25 +35,13 @@
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='/occupy/about/'>About</a>
+              <a class='nav-link' href='/occupy/themes/'>Themes</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='/occupy/get-involved/'>Get Involved</a>
-            </li>
-          
-        
-          
-            <li class='nav-item'>
-              <a class='nav-link' href='/occupy/resources/'>Resources</a>
-            </li>
-          
-        
-          
-            <li class='nav-item'>
-              <a class='nav-link' href='/occupy/exhibition/'>Browse the Exhibition</a>
+              <a class='nav-link' href='/occupy/declarations/'>Declarations</a>
             </li>
           
         
@@ -68,28 +56,141 @@
     <div id='wax-main'>
       <div id='wax-content' class='wax-inline-container'>
         
-  <h2 class='page-title'>About</h2>
+
+<h3 alt="" class='item-label'></h3>
 
 
-<h3 id="who-we-are">Who we are</h3>
 
-<p><strong>Jasmine Sykes-Kunk</strong> is a reference associate in NYU Special Collections who grew up celebrating Black Solidarity Day in Brooklyn, New York</p>
 
-<p><strong>Janet Bunde</strong> is the University Archivist in NYU Special Collections.</p>
+  <div class='item-view'>
+    <span class='pagination-link' id='prevlink'></span>
+    
+      <div id="osd" class="image-viewer"></div>
+<script defer src="/occupy/assets/openseadragon/openseadragon.min.js"></script>
 
-<p><strong>Shannon O’Neill</strong> is the curator for the Tamiment-Wagner Collections in NYU Special Collections.</p>
+<script>
+  $(document).ready(function () {
+    var manifestUrl = "";
+    $.getJSON(manifestUrl, function(data) {
+      var tileSources = [];
+      $.each(data.sequences[0].canvases, function(_k, val) {
+        tileSources.push({
+          tileSource: val.images[0].resource.service['@id'] + '/info.json',
+          referenceStripThumbnailUrl: val.thumbnail
+        });
+      });
+      OpenSeadragon({
+        id: "osd",
+        preload: true,
+        sequenceMode: true,
+        prefixUrl: "/occupy/assets/openseadragon/images/",
+        tileSources: tileSources,
+        showReferenceStrip: true,
+      });
+    });
+  });
+</script>
 
-<p><strong>Marii Nyrop</strong> works on digital humanities projects at NYU.</p>
+    
+    <span class='pagination-link' id='nextlink'></span>
+  </div>
+  
 
-<h3 id="why-were-doing-this">Why we’re doing this</h3>
 
-<p>We created this exhibition to highlight resources about Black Solidarity Day and provide broad access to them while our collections remain largely closed. We hope that this exhibition provides a space for learning, reflection, and inspiration for viewers.</p>
 
-<h3 id="where-the-materials-come-from">Where the materials come from</h3>
+  <script type='text/javascript'>
+    $('#prevlink').append(`<a href='/occupy/occupy/OWS053/' display='none'>&#8249;</a>`);
+    $('#nextlink').append(`<a href='/occupy/occupy/OWS055/' display='none'>&#8250;</a>`);
+  </script>
 
-<p>Materials in this exhibition come from collections held by NYU Special Collections, as well as materials contributed by community members, activists, and organizers of Black Solidarity Day celebrations across New York City and beyond. We encourage you to submit materials you have for inclusion in the exhibition. For more, see the “Contribute” section of our <a href="/occupy/get-involved">Get Involved</a> page.</p>
 
-<p>If you hold the rights to materials in our exhibit that are unattributed, please let us know so that we may maintain accurate information about these materials. If you are a rights holder and are concerned that you have found material on this website for which you have not granted permission (or is not covered by a copyright exception under U.S. copyright laws), you may request the removal of the material from our site by submitting a notice to special.collections@nyu.edu. Please see <a href="https://library.nyu.edu/about/visiting/policies/notice-takedown-policy/">NYU Libraries’ Takedown Policy</a> for more information.</p>
+
+
+
+
+
+
+  <dl class='metadata-block'>
+  
+    
+
+    
+    
+  
+    
+
+    
+    
+      
+        <dt>Creator</dt>
+        
+        <dd>Unknown; Occupy Wall Street Archives Working Group</dd>
+        
+    
+  
+    
+
+    
+    
+      
+        <dt>Box Number</dt>
+        
+        <dd>13</dd>
+        
+    
+  
+    
+
+    
+    
+      
+        <dt>Declarations</dt>
+        
+        <dd>They have perpetuated inequality and discrimination in the workplace based on age, the color of one's skin, sex, gender, identity and sexual orientation.</dd>
+        
+    
+  
+    
+
+    
+    
+      
+        <dt>Citation</dt>
+        
+        <dd>Gay Squat Sign, 2011-2012;TAM.630 Occupy Wall Street Archives Working Group Records; box 13; Tamiment Library/Robert F. Wagner Labor Archives, New York University</dd>
+        
+    
+  
+    
+
+    
+    
+      
+        <dt>Themes</dt>
+        
+        <dd>
+          <ul>
+            
+            <li>Inequality and Discrimination</li>
+            
+          </ul>
+        </dd>
+        
+    
+  
+    
+
+    
+    
+      
+        <dt>Description</dt>
+        
+        <dd>Sign that reads "Gay Squat 2011-2012: Come In and Come Out."</dd>
+        
+    
+  
+</dl>
+
 
 
       </div>

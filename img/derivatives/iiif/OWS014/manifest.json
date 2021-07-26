@@ -26,7 +26,7 @@
               "resource": {
                 "@id": "/occupy/img/derivatives/iiif/images/OWS014/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
-                "format": "tiffload_source",
+                "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "/occupy/img/derivatives/iiif/images/OWS014",
@@ -42,6 +42,5 @@
       ]
     }
   ],
-  "full": "/occupy/img/derivatives/iiif/images/OWS014/full/full/0/default.jpg",
-  "fullwidth": "/occupy/img/derivatives/iiif/images/OWS014/full/1140,/0/default.jpg"
+  "full": "/occupy/img/derivatives/iiif/images/OWS014/full/full/0/default.jpg"
 }

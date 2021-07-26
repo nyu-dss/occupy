@@ -26,7 +26,7 @@
               "resource": {
                 "@id": "/occupy/img/derivatives/iiif/images/OWS020_OWS020_01/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
-                "format": "tiffload_source",
+                "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "/occupy/img/derivatives/iiif/images/OWS020_OWS020_01",
@@ -54,7 +54,7 @@
               "resource": {
                 "@id": "/occupy/img/derivatives/iiif/images/OWS020_OWS020_02/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
-                "format": "tiffload_source",
+                "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "/occupy/img/derivatives/iiif/images/OWS020_OWS020_02",
@@ -70,6 +70,5 @@
       ]
     }
   ],
-  "full": "/occupy/img/derivatives/iiif/images/OWS020_OWS020_01/full/full/0/default.jpg",
-  "fullwidth": "/occupy/img/derivatives/iiif/images/OWS020_OWS020_01/full/1140,/0/default.jpg"
+  "full": "/occupy/img/derivatives/iiif/images/OWS020_OWS020_01/full/full/0/default.jpg"
 }
