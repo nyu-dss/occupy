@@ -5,7 +5,6 @@ baseurl:          /occupy
 logo:             /assets/logo.png
 
 permalink:        pretty
-incremental:      true
 theme:            wax_theme
 
 collections:
@@ -14,18 +13,16 @@ collections:
     layout: occupy_item
     metadata:
       source: occupy.csv
+      split:
+        themes: '|'
     images:
       source: images
 
 menu:
-  - label: About
-    link: /about/
-  - label: Get Involved
-    link: /get-involved/
-  - label: Resources
-    link: /resources/
-  - label: Browse the Exhibition
-    link: /exhibition/
+  - label: Themes
+    link: /themes/
+  - label: Declarations
+    link: /declarations/
 
 footer:
   links:
