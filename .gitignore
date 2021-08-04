@@ -8,7 +8,7 @@ _site
 .DS_Store
 
 # ruby things
-Gemfile.lock
+# Gemfile.lock
 
 # wax things
 wax_tasks
