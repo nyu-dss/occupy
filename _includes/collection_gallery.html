@@ -1,4 +1,4 @@
-{% assign collection = site[include.collection] %}
+{% assign collection = site[include.collection] | sort: 'order' %}
 
 {% if include.only and include.facet_by %}
   {% assign subset = collection | where: include.facet_by, include.only | sort: 'order' %}

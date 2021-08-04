@@ -10,7 +10,17 @@ require 'wax_tasks'
 METADATA_FILE = './_data/occupy.csv'
 metadata = WaxTasks::Utils.ingest METADATA_FILE
 
-metadata.each_with_index.map do |meta, i|
+def csv_string(records)
+  keys = records.flat_map(&:keys).uniq
+  CSV.generate do |csv|
+    csv << keys
+    records.each do |r|
+      csv << keys.map { |k| r.hash.fetch(k, '') }
+    end
+  end
+end
+
+metadata.map! do |meta|
   WaxTasks::Record.new(meta).tap do |r|
     thumb = r.hash.dig 'thumbnail'
     return if thumb.nil?
@@ -20,12 +30,6 @@ metadata.each_with_index.map do |meta, i|
   end
 end
 
-  # reformatted = case File.extname @metadata_source
-  #                     when '.csv'
-  #                       csv_string records
-  #                     when '.json'
-  #                       json_string records
-  #                     when /\.ya?ml/
-  #                       yaml_string records
-  #                     end
-  #       File.open(@metadata_source, 'w') { |f| f.puts reformatted }
+reformatted = csv_string metadata.sort_by(&:order)
+puts "Overwritting #{METADATA_FILE} with full 1140px width image paths"
+File.open(METADATA_FILE, 'w') { |f| f.puts reformatted }

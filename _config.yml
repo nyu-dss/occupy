@@ -14,7 +14,8 @@ collections:
     metadata:
       source: occupy.csv
       split:
-        themes: '|'
+        themes: ','
+        declarations: ','
     images:
       source: images
 
