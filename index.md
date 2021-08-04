@@ -4,8 +4,9 @@ show_title: false
 show_quote: true
 banner:
   collection: occupy
-  pid: OWS034
-  y: '65%'
+  pid: OWS041
+  y: '85%'
+  height: '700'
 ---
 ### Brief History
 
@@ -17,5 +18,9 @@ On Black Solidarity Day, Black and African diasporic people are asked to stay ho
 This project was envisioned by Jasmine Sykes-Kunk after many of the NYU Libraries staff participated in the #StrikeforBlackLIves #ShutdownAcademia in June 2020. This day of reflection, and learning instead, was in response to the national calls to action and protests following the murder of George Floyd. This strike reminded Jasmine of the Black Solidarity Day community events of her childhood. Through research, she discovered that Black Solidarity Day initially was more of a regional action. Jasmine hopes to spotlight Black Solidarity Day collection materials within NYU Special Collections, and to build a space for community connection and greater awareness of this annual day of protest.  
 
 ### Browse the Exhibition
+
+#### [By theme]({{ 'themes' | absolute_url }}) – [By declaration]({{ 'declarations' | absolute_url }})
+
+#### By object type
 
 {% include collection_gallery.html collection="occupy" %}

@@ -20,15 +20,15 @@ $thumbnail-width: 140px;
 
 /* colors */
 
-$text-color:      #100c01;
+$text-color:      #1E1B22;
 $bg-color:        #ffffff;
-$neutral:         #edebf0; //#eae7de;
-$accent-light:    #9046CF;
-$accent-dark:     #4A00A0;
+$neutral:         #A198AE;
+$accent-light:    #EB3536;
+$accent-dark:     #090C9B;
 
 /* viewport sizes */
 
-$max-width:       800px;
+$max-width:       900px;
 
 /* margins */
 
@@ -38,7 +38,7 @@ $more-margin:     2.0rem;
 $super-margin:    3.0rem;
 
 
-$viewer-height:   550px;
+$viewer-height:   450px;
 $parallax-height: 350px;
 $footer-height:   250px;
 
@@ -95,8 +95,72 @@ font & asset import
   font-family: 'Cabin Sketch', 'Work Sans', 'sans-serif';
   text-transform: uppercase;
   line-height: 80%;
+  font-size: 2.5rem;
+  &:hover {
+    color: $accent-light !important;
+  }
 }
-#wax-main h3 {
-  font-family: 'Cabin Sketch', 'Work Sans', 'sans-serif';
-  text-transform: uppercase;
+
+#wax-main {
+  h3 {
+    font-family: 'Cabin Sketch', 'Work Sans', 'sans-serif';
+    text-transform: uppercase;
+    margin-top: 3rem;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+  }
+}
+
+#wax-main, #wax-header {
+  .nav-item {
+    background-color: unset !important;
+    a {
+      color: $accent-light !important;
+      &:hover {
+        color: $accent-dark !important;
+      }
+    }
+  }
+}
+.wax-gallery-container {
+  .wax-gallery {
+    justify-content: stretch;
+  }
+  .gallery-item {
+    margin: unset !important;
+    border: unset !important;
+    .gallery-thumb {
+      // filter: grayscale(1);
+    }
+    .overlay {
+      background-color: unset;
+      background-image: linear-gradient(45deg, #A44113, #B56576);
+      &:hover {
+        opacity: .95 !important;
+        transition: opacity 0.3s ease-in-out !important;
+      }
+      p.info {
+        font-weight: bold !important;
+        font-size: 1rem !important;
+        line-height: 1.2rem !important;
+        word-wrap: break-word !important;
+        margin: 1rem auto !important;
+        display: inline-block !important;
+        opacity: 1;
+        color: white !important;
+      }
+    }
+  }
+}
+
+.item-view .pagination-link a {
+  background-color: unset !important;
+}
+.metadata-block {
+  background-color: white;
+}
+
+.image-viewer{
+  background-color: #C8C1A7;
 }
