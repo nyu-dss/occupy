@@ -6,6 +6,7 @@ logo:             /assets/logo.png
 
 permalink:        pretty
 theme:            wax_theme
+source:           source
 
 collections:
   occupy:
