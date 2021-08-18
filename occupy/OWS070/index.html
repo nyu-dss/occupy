@@ -17,7 +17,7 @@
 
 
   <body>
-    <time datetime='2021-08-04 21:47'></time>
+    <time datetime='2021-08-18 19:39'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
     <a class='navbar-brand custom-brand' href="/occupy/" title='Home' alt='Occupy Wall Street'>
@@ -35,13 +35,25 @@
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='/occupy/themes/'>Themes</a>
+              <a class='nav-link' href='/occupy/about/'>About</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='/occupy/declarations/'>Declarations</a>
+              <a class='nav-link' href='/occupy/themes/'>Exhibit Themes</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='/occupy/declarations/'>Declaration of the Occupation</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='/occupy/bibliography/'>Bibliography</a>
             </li>
           
         
@@ -61,40 +73,16 @@
 
 
 
-
-  <div class='item-view'>
-    <span class='pagination-link' id='prevlink'></span>
-    
-      <div id="osd" class="image-viewer"></div>
-<script defer src="/occupy/assets/openseadragon/openseadragon.min.js"></script>
-
-<script>
-  $(document).ready(function () {
-    var manifestUrl = "/occupy";
-    $.getJSON(manifestUrl, function(data) {
-      var tileSources = [];
-      $.each(data.sequences[0].canvases, function(_k, val) {
-        tileSources.push({
-          tileSource: val.images[0].resource.service['@id'] + '/info.json',
-          referenceStripThumbnailUrl: val.thumbnail
-        });
-      });
-      OpenSeadragon({
-        id: "osd",
-        preload: true,
-        sequenceMode: true,
-        prefixUrl: "/occupy/assets/openseadragon/images/",
-        tileSources: tileSources,
-        showReferenceStrip: true,
-      });
-    });
-  });
-</script>
-
-    
-    <span class='pagination-link' id='nextlink'></span>
-  </div>
+<div class='item-view'>
+  <span class='pagination-link' id='prevlink'></span>
   
+      <div class="coming-soon">
+        <h4 class="coming-soon-text">Image scans coming soon!</h4>
+      </div>
+  
+  <span class='pagination-link' id='nextlink'></span>
+</div>
+
 
 
 
@@ -109,9 +97,10 @@
 
 
 
-
   <dl class='metadata-block'>
   
+    
+
     
 
     
@@ -126,6 +115,8 @@
     
 
     
+
+    
     
       
         <dt>Creator</dt>
@@ -134,6 +125,8 @@
         
     
   
+    
+
     
 
     
@@ -154,6 +147,8 @@
     
 
     
+
+    
     
       
         <dt>Citation</dt>
@@ -162,6 +157,8 @@
         
     
   
+    
+
     
 
     
@@ -182,12 +179,41 @@
     
 
     
+
+    
+    
+  
+    
+
+    
+
+    
     
       
         <dt>Description</dt>
         
         <dd>Cardboard sign that includes a a photograph of South Korean labor activist Kim Jin-suk and a message of "Solidarity from 99 Percent of Korea." Kim was a welder who received international attention when she staged a protest against her employer on top of a 115-foot shipyard crane in 2011. Following massive layoffs, Kim occupied the crane for more than 300 days in order to pressure Hanjin Heavy Industries and Construction to rehire unionists who had lost their jobs. The protest worked and nearly a hundred workers regained their positions as a result of Kim's protest and the movement she inspired across South Korea. Kim's protest is just one example of Occupy linking their actions to other solidarity movements across the globe.</dd>
         
+    
+  
+    
+
+    
+
+    
+    
+      
+        <dt>Image Description</dt>
+        
+        <dd>Cardboard sign that includes a a photograph of South Korean labor activist Kim Jin-suk and a message of "Solidarity from 99 Percent of Korea." Kim was a welder who received international attention when she staged a protest against her employer on top of a 115-foot shipyard crane in 2011.</dd>
+        
+    
+  
+    
+
+    
+
+    
     
   
 </dl>

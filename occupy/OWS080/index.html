@@ -17,7 +17,7 @@
 
 
   <body>
-    <time datetime='2021-08-04 21:47'></time>
+    <time datetime='2021-08-18 19:39'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
     <a class='navbar-brand custom-brand' href="/occupy/" title='Home' alt='Occupy Wall Street'>
@@ -35,13 +35,25 @@
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='/occupy/themes/'>Themes</a>
+              <a class='nav-link' href='/occupy/about/'>About</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='/occupy/declarations/'>Declarations</a>
+              <a class='nav-link' href='/occupy/themes/'>Exhibit Themes</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='/occupy/declarations/'>Declaration of the Occupation</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='/occupy/bibliography/'>Bibliography</a>
             </li>
           
         
@@ -61,40 +73,16 @@
 
 
 
-
-  <div class='item-view'>
-    <span class='pagination-link' id='prevlink'></span>
-    
-      <div id="osd" class="image-viewer"></div>
-<script defer src="/occupy/assets/openseadragon/openseadragon.min.js"></script>
-
-<script>
-  $(document).ready(function () {
-    var manifestUrl = "/occupy";
-    $.getJSON(manifestUrl, function(data) {
-      var tileSources = [];
-      $.each(data.sequences[0].canvases, function(_k, val) {
-        tileSources.push({
-          tileSource: val.images[0].resource.service['@id'] + '/info.json',
-          referenceStripThumbnailUrl: val.thumbnail
-        });
-      });
-      OpenSeadragon({
-        id: "osd",
-        preload: true,
-        sequenceMode: true,
-        prefixUrl: "/occupy/assets/openseadragon/images/",
-        tileSources: tileSources,
-        showReferenceStrip: true,
-      });
-    });
-  });
-</script>
-
-    
-    <span class='pagination-link' id='nextlink'></span>
-  </div>
+<div class='item-view'>
+  <span class='pagination-link' id='prevlink'></span>
   
+      <div class="coming-soon">
+        <h4 class="coming-soon-text">Image scans coming soon!</h4>
+      </div>
+  
+  <span class='pagination-link' id='nextlink'></span>
+</div>
+
 
 
 
@@ -109,31 +97,24 @@
 
 
 
-
   <dl class='metadata-block'>
   
     
 
     
+
     
-      
-        <dt>Label</dt>
-        
-        <dd></dd>
-        
     
   
     
 
     
+
     
-      
-        <dt>Creator</dt>
-        
-        <dd></dd>
-        
     
   
+    
+
     
 
     
@@ -154,6 +135,8 @@
     
 
     
+
+    
     
       
         <dt>Citation</dt>
@@ -162,6 +145,8 @@
         
     
   
+    
+
     
 
     
@@ -184,12 +169,35 @@
     
 
     
+
+    
+    
+  
+    
+
+    
+
+    
     
       
         <dt>Description</dt>
         
         <dd>foam hand, raising its middle finger. in the middle of the hand is text that reads tax dodgers 1%</dd>
         
+    
+  
+    
+
+    
+
+    
+    
+  
+    
+
+    
+
+    
     
   
 </dl>
