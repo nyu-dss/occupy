@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Browse by theme
+title: Exhibit Themes
 permalink: /themes/
 ---
 
@@ -16,17 +16,17 @@ permalink: /themes/
 
 {% assign all_themes = all_themes | uniq | sort_natural %}
 
-{% for theme in all_themes %}[{{ theme }}](#{{ theme | slugify }}){% unless forloop.last %} / {% endunless %}{% endfor %}
+{% for theme in site.data.themes %}[{{ theme.label }}](#{{ theme.pid | slugify }}){% unless forloop.last %} / {% endunless %}{% endfor %}
 
-{% for theme in all_themes %}
-### #{{ theme }}
+{% for theme in site.data.themes %}
+### #{{ theme.label }}{# {{ theme.pid}} }
 
 <div id='wax-gallery-{{ include.collection }}-container' class='wax-gallery-container full-width'>
   <div class='wax-inline-container'>
     <div id="wax-gallery-{{ include.collection }}" class="wax-gallery">
 
       {% for item in site.occupy %}
-        {% if item.themes contains theme %}
+        {% if item.themes contains theme.pid %}
           <div class='gallery-item'>
             <a href='{{ item.url | absolute_url }}'>
               <div class='hovereffect'>
@@ -43,17 +43,3 @@ permalink: /themes/
   </div>
 </div>
 {% endfor %}
-
-
-
-
-{% comment %}
-
-{% assign all_declarations = site.occupy | map: 'declarations' | uniq | natural_sort %}
-
-### declarations
-{% for declaration in all_declarations %}
-- {{ declaration }}
-{% endfor %}
-
-{% endcomment %}

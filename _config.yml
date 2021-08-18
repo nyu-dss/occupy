@@ -7,8 +7,14 @@ logo:             /assets/logo.png
 permalink:        pretty
 theme:            wax_theme
 source:           source
+incremental:      true
 
 collections:
+  declarations:
+    output: true
+    layout: declaration
+    metadata:
+      source: declarations.csv
   occupy:
     output: true
     layout: occupy_item
@@ -21,10 +27,14 @@ collections:
       source: images
 
 menu:
-  - label: Themes
+  - label: About
+    link: /about/
+  - label: Exhibit Themes
     link: /themes/
-  - label: Declarations
+  - label: Declaration of the Occupation
     link: /declarations/
+  - label: Bibliography
+    link: /bibliography/
 
 footer:
   links:

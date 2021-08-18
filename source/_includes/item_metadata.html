@@ -7,10 +7,17 @@
       {% assign value = item.value %}
     {% endif %}
 
+    {% if item.value contains 'page.' %}
+      {% assign key = item.value | remove: 'page.' %}
+      {% assign value = page[key] %}
+    {% else %}
+      {% assign value = item.value %}
+    {% endif %}
+
     {% comment %}
     Only display non-empty values
     {% endcomment %}
-    {% if value | strip != '' %}
+    {% if value and value.size != 0 %}
       {% if item.type == 'link' %}
         {% if key == 'manifest' %}
           {%- capture value -%}
@@ -18,8 +25,8 @@
           {%- endcapture -%}
         {% else %}
           {%- capture value -%}
-            <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">
-              {{ value | absolute_url | remove: 'https://' | remove: 'http://' | split: "/" | first }}
+            <a href="{{ value | strip | absolute_url }}" target="_blank" rel="noreferrer">
+              {{ value | strip | absolute_url | remove: 'https://' | remove: 'http://' | split: "/" | first }}
             </a>
           {%- endcapture -%}
         {% endif %}
