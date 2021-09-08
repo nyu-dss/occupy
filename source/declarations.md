@@ -1,9 +1,17 @@
 ---
 layout: page
 title: Declaration of the Occupation
-show_title: false
 permalink: /declarations/
 ---
+
+**No Turning Back: Ten Years After Occupy** is organized around the _Declaration of the Occupation of New York City_—drafted by the Call to Action Working Group and ratified by New York City General Assembly (NYCGA) on September 29, 2011. While the right-leaning media attempted to define the movement as one “without a message,” the Occupy activists were clear about what they wanted to communicate to the world. Though some accounts of the writing of the _Declaration_ portray its writing as one of harmonious co-authorship, original drafts of the document adopted a color-blind logic and were pivotally blocked at the NYCGA by activists of color. The _Declaration_ was ultimately meant to be a living document; however, after its initial adoption by the NYCGA, the document was seemingly unchanged. Reading the document ten years after its authorship, there are points that resonate and many apparent gaps which underscore the document’s insufficiency.
+
+In spite of its flaws, the _Declaration_, along with the [Principles of Solidarity](https://wayback.archive-it.org/6339/20130208193214/http://occupywallstreet.net/learn), was a defining text of the movement. Taking Occupy's pronouncement “[speak with us, not for us](https://wayback.archive-it.org/6339/20130208193214/http://occupywallstreet.net/learn)” seriously, we have allowed the _Declaration_ to guide this exhibit; the exhibit is illustrative of the _Declaration’s_ points. Below this introduction, you will find the full text of the _Declaration of the Occupation of New York City_. For aspects of the _Declaration_ where we surfaced related documentation, we have digitized those materials and tagged them with that associated statement. Some documents relate to more than one point within the _Declaration_. Exhibit visitors can also navigate their way through the site according to a set of [thirteen themes ](https://nyu-dss.github.io/occupy/themes/)which are representative of some of the issues around which the movement coalesced.
+
+
+
+<hr>
+
 
 
 ## DECLARATION OF THE OCCUPATION<br>OF NEW YORK CITY

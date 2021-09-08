@@ -7,8 +7,8 @@
 require 'fileutils'
 require 'vips'
 
-@start_dir   = "src/_data/images"
-@target_dir  = "src/_data/resized"
+@start_dir   = "source/_data/images"
+@target_dir  = "source/_data/resized"
 
 FileUtils.mkdir_p @target_dir
 
