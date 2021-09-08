@@ -49,6 +49,10 @@ font & asset import
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&font-display=auto');
 @import 'wax';
 
+html {
+  scroll-behavior: smooth;
+}
+
 .parallax-image {
   blockquote{
     opacity: .9;
@@ -110,8 +114,14 @@ font & asset import
   h1,h2,h3,h4,h5,h6 {
     text-align: center;
   }
+  li {
+    margin-bottom: 0.5rem;
+    line-height: unset !important;
+  }
 }
-
+#wax-main {
+  padding-top: unset !important;
+}
 #wax-main, #wax-header {
   .nav-item {
     background-color: unset !important;
@@ -182,7 +192,7 @@ font & asset import
 
 
 .parallax-caption {
-  display: none;
+  background-color: #dedede !important;
 }
 
 .centered {
