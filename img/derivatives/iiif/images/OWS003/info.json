@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "/occupy/img/derivatives/iiif/images/OWS003",
+  "@id": "/occupy//img/derivatives/iiif/images/OWS003",
   "protocol": "http://iiif.io/api/image",
   "width": 5000,
   "height": 3809,
@@ -11,11 +11,11 @@
     },
     {
       "width": 250,
-      "height": 191
+      "height": 190
     },
     {
       "width": 1140,
-      "height": 869
+      "height": 868
     }
   ],
   "profile": [

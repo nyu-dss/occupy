@@ -1,46 +1,47 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "/occupy/img/derivatives/iiif/OWS033/manifest.json",
+  "@id": "/occupy//img/derivatives/iiif/OWS033/manifest.json",
   "@type": "sc:Manifest",
   "label": "OWS033",
-  "thumbnail": "/occupy/img/derivatives/iiif/images/OWS033/full/250,/0/default.jpg",
+  "thumbnail": "/occupy//img/derivatives/iiif/images/OWS033/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
   "sequences": [
     {
-      "@id": "/occupy/img/derivatives/iiif/sequence/OWS033.json",
+      "@id": "/occupy//img/derivatives/iiif/sequence/OWS033.json",
       "@type": "sc:Sequence",
       "canvases": [
         {
           "@type": "sc:Canvas",
-          "@id": "/occupy/img/derivatives/iiif/canvas/OWS033.json",
+          "@id": "/occupy//img/derivatives/iiif/canvas/OWS033.json",
           "label": "front",
           "width": 5000,
           "height": 6492,
-          "thumbnail": "/occupy/img/derivatives/iiif/images/OWS033/full/250,/0/default.jpg",
+          "thumbnail": "/occupy//img/derivatives/iiif/images/OWS033/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "/occupy/img/derivatives/iiif/annotation/OWS033.json",
+              "@id": "/occupy//img/derivatives/iiif/annotation/OWS033.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/occupy/img/derivatives/iiif/images/OWS033/full/full/0/default.jpg",
+                "@id": "/occupy//img/derivatives/iiif/images/OWS033/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "/occupy/img/derivatives/iiif/images/OWS033",
+                  "@id": "/occupy//img/derivatives/iiif/images/OWS033",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 5000,
                 "height": 6492
               },
-              "on": "/occupy/img/derivatives/iiif/canvas/OWS033.json"
+              "on": "/occupy//img/derivatives/iiif/canvas/OWS033.json"
             }
           ]
         }
       ]
     }
   ],
-  "full": "/occupy/img/derivatives/iiif/images/OWS033/full/full/0/default.jpg"
+  "full": "/occupy//img/derivatives/iiif/images/OWS033/full/full/0/default.jpg",
+  "fullwidth": "/occupy//img/derivatives/iiif/images/OWS033/full/1140,/0/default.jpg"
 }
