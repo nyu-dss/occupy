@@ -10,11 +10,17 @@ banner:
 ---
 
 
-### **No Turning Back: Ten Years After Occupy**
+### **Introduction**
 
 In the winter and spring of 2011, waves of unrest coursed through Tunisia, Algeria, Lebanon, Jordan, Mauritania, Oman, Saudi Arabia, and Egypt. In the United States, protestors took over the Wisconsin State Capitol in Madison, rallying against the Wisconsin Budget Repair Bill which decimated collective bargaining rights in the state. That summer unrest unfolded in Chile, Columbia, Argentina, Brazil, Mexico, Venezuela, and Spain. The Spanish uprising, encampments in public squares of activists calling themselves Los Indignados, “the indignants,” became the May 15 or M15 movement whose strategies and rhetoric had a significant impact on the shape of what was to become Occupy.
 
 As revolution circled the globe, _Adbusters_, a Canadian anti-consumerist magazine, published a call: “Are you ready for a Tahrir moment? On September 17, flood into lower Manhattan, set up tents, kitchens, peaceful barricades, and occupy Wall Street.” A core group of activists in New York—who were watching, learning, and even participating in these global movements—began meeting in New York City, calling themselves the New York City General Assembly (NYCGA). Together they planned their action. Eight sites fulfilled the needs identified by the Tactical Committee, a working group within NYCGA, and on Saturday, September 17th, a crowd of around 1,000 people gathered in lower Manhattan, with maps of possible targets on hand. Finding Chase Plaza already barricaded by the NYPD, the activists moved to “Location Two,” and by 3:00 PM, Occupy was hosting its first movement-wide General Assembly in its new home: Zuccotti Park.
+
+<br>
+
+{% include parallax_image.html collection='items' pid='OWS034' y='60%' %}
+
+<br>
 
 Occupy’s encampment was violently destroyed by the NYPD and the City of New York after three months of maintaining a twenty-four hour, seven-days-a-week protest and takeover of the park. The movement carried on, and made attempts to take-over other sites, for another year; however, after thousands of brutal arrests, Occupy activists began to burn out after 2012. For some time after 2012, annual protests continued each year on the anniversary of September 17th and on May Day, but direct action, under the banner of Occupy, ceased altogether in 2015. Since then, any lasting contours of the movement have largely been appropriated by liberal causes. Nonetheless, the last ten years of left protest have made it hard to dismiss the importance of what transpired in lower Manhattan from 2011-2012.
 
@@ -27,10 +33,8 @@ The exhibit is organized around the _Declaration of the Occupation of New York C
 By illuminating all that Occupy fought for and where it faltered, **No Turning Back: Ten Years After Occupy,** provides a retrospective for understanding where we are in 2021—politically fractured, burdened by the ravages of capitalism, white nationalist fascism rising, climate change reaching its critical tipping point, and trying to survive a pandemic. It also reminds us of the power of collective action and interdependence.
 
 
-### Browse the Exhibition
+<hr>
 
-#### [By theme]({{ 'themes' | absolute_url }}) – [By declaration]({{ 'declarations' | absolute_url }})
-
-#### By object type
+### Browse Collection by Object Type
 
 {% include collection_gallery.html collection="items" facet_by="object_type" %}

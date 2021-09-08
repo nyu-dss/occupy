@@ -22,9 +22,9 @@ $thumbnail-width: 140px;
 
 $text-color:      #1E1B22;
 $bg-color:        #ffffff;
-$neutral:         #A198AE;
+$neutral:         #dedede;
 $accent-light:    #EB3536;
-$accent-dark:     #090C9B;
+$accent-dark:     #665f99;
 
 /* viewport sizes */
 
@@ -95,6 +95,17 @@ html {
   margin-bottom: 0;
 }
 
+.navbar > .wax-inline-container {
+  display: block;
+  .navbar-nav {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+
+
 .custom-brand {
   font-family: 'Cabin Sketch', 'Work Sans', 'sans-serif';
   text-transform: uppercase;
@@ -135,7 +146,7 @@ html {
 }
 .wax-gallery-container {
   .wax-gallery {
-    justify-content: stretch;
+    justify-content: center;
     display: flex;
   }
   .gallery-item {
@@ -193,9 +204,41 @@ html {
 
 .parallax-caption {
   background-color: #dedede !important;
+  text-align: center;
 }
 
 .centered {
   text-align: center !important;
   margin: 1rem auto;
+}
+
+#wax-header {
+  background-color: unset;
+  background-image: url({{ '/img/paper.jpg' | absolute_url }});
+  .navbar-nav .nav-item {
+    z-index: unset !important;
+  }
+}
+
+
+.inline-doc {
+  background-color: #ffffbf;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  filter: drop-shadow(0 0 0.75rem grey);
+  p, li, h4, a {
+    font-family: monospace !important;
+  }
+}
+
+#wax-header .navbar-nav .nav-link:active {
+  background-color: unset;
+}
+
+.breadcrumb {
+  background-color: unset !important;
+  padding: 0.75rem 0;
+  justify-content: center;
+  text-align: center;
+  a { color: black; }
 }

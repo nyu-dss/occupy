@@ -1,8 +1,9 @@
-title:            Occupy Wall Street
+title:            'No Turning Back: Ten Years After Occupy'
 description:      ''
 url:              ''
 baseurl:          /occupy
 logo:             /assets/logo.png
+copyright:        ''
 
 permalink:        pretty
 theme:            wax_theme
@@ -27,12 +28,18 @@ collections:
       source: images
 
 menu:
+  - label: Introduction
+    link: '/#introduction'
   - label: About
     link: /about/
-  - label: Exhibit Themes
-    link: /themes/
-  - label: Declaration of the Occupation
-    link: /declarations/
+  - label: Browse the Collection
+    sub:
+      - label: By Theme
+        link: /themes/
+      - label: By Declaration
+        link: /declarations/
+      - label: By Object Type
+        link: /types/
   - label: Bibliography
     link: /bibliography/
 

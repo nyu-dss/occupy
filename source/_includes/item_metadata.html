@@ -60,3 +60,20 @@
     </ul>
   </dd>
 </dl>
+
+{% if page.associated_web_archives.size > 0 %}
+<dl class='metadata-block'>
+  <dt>Associated Web Archives</dt>
+  <dd>
+    <ul>
+      {% for a in page.associated_web_archives %}
+      <li>
+        <a href="{{ a | strip | absolute_url }}" target="_blank" rel="noreferrer">
+          {{ a | strip | absolute_url  }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </dd>
+</dl>
+{% endif %}
