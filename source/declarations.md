@@ -34,9 +34,9 @@ profit over people, self-interest over justice, and oppression over equality, ru
 have peaceably assembled here, as is our right, to let these facts be known.
 
 <ul>
-  {% for declaration in site.data.declarations | limit: 22 %}
+  {% for declaration in site.data.declarations limit: 22 %}
   <li>
-    <a href="{{ page.url | absolute_url }}{{ declaration.pid }}/" target="_none">{{ declaration.label }}</a>{% if forloop.last %}*{% endif %}
+    <a href="{{ page.url | absolute_url }}#{{ declaration.pid }}">{{ declaration.label }}</a>{% if forloop.last %}*{% endif %}
   </li>
   {% endfor %}
 </ul>
@@ -47,7 +47,7 @@ To the people of the world,
 We, the New York City General Assembly occupying Wall Street in Liberty Square, urge you to assert
 your power.
 
-<a href="{{ page.url | absolute_url }}{{ site.data.declarations.last.pid }}/" target="_none">{{ site.data.declarations.last.label }}</a>
+<a href="{{ page.url | absolute_url }}#{{ site.data.declarations.last.pid }}">{{ site.data.declarations.last.label }}</a>
 
 Exercise your right to peaceably assemble; occupy public space; create a process to address the
 problems we face, and generate solutions accessible to everyone.
@@ -58,3 +58,31 @@ documentation, and all of the resources at our disposal.
 Join us and make your voices heard!
 
 *These grievances are not all-inclusive.
+
+<hr>
+
+{% for declaration in site.data.declarations %}
+  <h4 id="{{ declaration.pid }}">#{{ declaration.label }}</h4>
+
+  <div id='wax-gallery-declarations-container-{{ declaration.pid }}' class='wax-gallery-container full-width'>
+    <div class='wax-inline-container'>
+      <div id="wax-gallery-declarations-{{ declaration.pid }}" class="wax-gallery">
+
+        {% for item in site.items %}
+          {% if item.declarations contains declaration.pid %}
+            <div class='gallery-item'>
+              <a href='{{ item.url | absolute_url }}'>
+                <div class='hovereffect'>
+                  <img class='img-responsive gallery-thumb' src='{{ item.thumbnail | default: 'img/default.png'  | absolute_url }}' alt='{{ item.label | default: item.pid | escape }}'/>
+                  <div class='overlay'>
+                    <p class='info'>{{ item.label | default: item.pid | escape }}</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}

@@ -10,12 +10,12 @@ source:           source
 incremental:      true
 
 collections:
-  declarations:
+  themes:
     output: true
-    layout: declaration
+    layout: theme
     metadata:
-      source: declarations.csv
-  occupy:
+      source: themes.csv
+  items:
     output: true
     layout: occupy_item
     metadata:

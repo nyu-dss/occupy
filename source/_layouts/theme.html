@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<h2>{{ page.label }}</h2>
+<p>{{ page.description }}</p>
+
+<h3>Items</h3>
+
+<div id='wax-gallery-themes-{{ page.pid }}-container' class='wax-gallery-container full-width'>
+  <div class='wax-inline-container'>
+    <div id="wax-gallery-themes-{{ page.pid }}" class="wax-gallery">
+
+      {% for item in site.items %}
+        {% if item.themes contains page.pid %}
+          <div class='gallery-item'>
+            <a href='{{ item.url | absolute_url }}'>
+              <div class='hovereffect'>
+                <img class='img-responsive gallery-thumb' src='{{ item.thumbnail | default: 'img/default.png'  | absolute_url }}' alt='{{ item.label | default: item.pid | escape }}'/>
+                <div class='overlay'>
+                  <p class='info'>{{ item.label | default: item.pid | escape }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

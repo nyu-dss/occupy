@@ -3,10 +3,10 @@ layout: page
 show_title: false
 show_quote: true
 banner:
-  collection: occupy
-  pid: OWS041
-  y: '85%'
-  height: '700'
+  collection: items
+  pid: OWS018
+  y: '7%'
+  height: 300px
 ---
 
 
@@ -33,4 +33,4 @@ By illuminating all that Occupy fought for and where it faltered, **No Turning B
 
 #### By object type
 
-{% include collection_gallery.html collection="occupy" %}
+{% include collection_gallery.html collection="items" facet_by="object_type" %}

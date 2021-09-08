@@ -7,16 +7,6 @@
       {% assign value = item.value %}
     {% endif %}
 
-    {% if item.value contains 'page.' %}
-      {% assign key = item.value | remove: 'page.' %}
-      {% assign value = page[key] %}
-    {% else %}
-      {% assign value = item.value %}
-    {% endif %}
-
-    {% comment %}
-    Only display non-empty values
-    {% endcomment %}
     {% if value and value.size != 0 %}
       {% if item.type == 'link' %}
         {% if key == 'manifest' %}
@@ -41,8 +31,32 @@
           </ul>
         </dd>
         {% else %}
-        <dd>{{ value | strip }}</dd>
+          <dd>{{ value | strip }}</dd>
         {% endif %}
     {% endif %}
   {% endfor %}
+</dl>
+
+<dl class='metadata-block'>
+  <dt>Themes</dt>
+  <dd>
+    <ul>
+      {% for t in page.themes %}
+        {% assign theme = site.data.themes | where: 'pid', t | first %}
+        <li><a href="{{ '/themes' | absolute_url }}/{{ theme.pid }}/">{{ theme.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </dd>
+</dl>
+
+<dl class='metadata-block'>
+  <dt>Declarations</dt>
+  <dd>
+    <ul>
+      {% for d in page.declarations %}
+        {% assign declaration = site.data.declarations | where: 'pid', d | first %}
+        <li><a href="{{ '/declarations' | absolute_url }}#{{ declaration.pid }}">{{ declaration.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </dd>
 </dl>
