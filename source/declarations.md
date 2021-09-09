@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Browse by Declaration
+title: About the <i>Declaration of the Occupation of New York City</i>
 permalink: /declarations/
 ---
 
@@ -9,6 +9,9 @@ permalink: /declarations/
 In spite of its flaws, the _Declaration_, along with the [Principles of Solidarity](https://wayback.archive-it.org/6339/20130208193214/http://occupywallstreet.net/learn), was a defining text of the movement. Taking Occupy's pronouncement “[speak with us, not for us](https://wayback.archive-it.org/6339/20130208193214/http://occupywallstreet.net/learn)” seriously, we have allowed the _Declaration_ to guide this exhibit; the exhibit is illustrative of the _Declaration’s_ points. Below this introduction, you will find the full text of the _Declaration of the Occupation of New York City_. For aspects of the _Declaration_ where we surfaced related documentation, we have digitized those materials and tagged them with that associated statement. Some documents relate to more than one point within the _Declaration_. Exhibit visitors can also navigate their way through the site according to a set of [thirteen themes ](https://nyu-dss.github.io/occupy/themes/)which are representative of some of the issues around which the movement coalesced.
 
 Below is a reproduction of the *Declaration of the Occupation of New York City* with declarations linked to relevant items in the exhibit.
+
+## Read the Document and Browse Related Items
+<br>
 
 <div class="inline-doc">
   <h3>DECLARATION OF THE OCCUPATION<br>OF NEW YORK CITY</h3>
@@ -21,7 +24,12 @@ Below is a reproduction of the *Declaration of the Occupation of New York City* 
   <ul>
     {% for declaration in site.data.declarations limit: 22 %}
     <li>
-      <a href="{{ page.url | absolute_url }}#{{ declaration.pid }}">{{ declaration.label }}</a>{% if forloop.last %}*{% endif %}
+      {% assign items = site.items | where_exp: "item", "item.declarations contains declaration.pid" %}
+      {% if items.size > 0 %}
+      <a href="{{ page.url | absolute_url }}/{{ declaration.pid }}" target="_none">
+        {{ declaration.label }} <i class="fas fa-external-link-square-alt"></i>
+      </a>
+      {% else %}{{ declaration.label }}{% endif %}{% if forloop.last %}*{% endif %}
     </li>
     {% endfor %}
   </ul>
@@ -29,7 +37,14 @@ Below is a reproduction of the *Declaration of the Occupation of New York City* 
 
   <p>We, the New York City General Assembly occupying Wall Street in Liberty Square, urge you to assert your power.</p>
 
-  <p><a href="{{ page.url | absolute_url }}#{{ site.data.declarations.last.pid }}">{{ site.data.declarations.last.label }}</a></p>
+  <p>
+    {% assign items = site.items | where_exp: "item", "item.declarations contains site.data.declarations.last.pid" %}
+    {% if items.size > 0 %}
+      <a href="{{ page.url | absolute_url }}/{{ site.data.declarations.last.pid }}" target="_none">{{ site.data.declarations.last.label }} <i class="fas fa-external-link-square-alt"></i></a>
+    {% else %}
+      {{ site.data.declarations.last.label }}
+    {% endif %}
+  </p>
 
   <p>Exercise your right to peaceably assemble; occupy public space; create a process to address the problems we face, and generate solutions accessible to everyone.</p>
 
@@ -41,27 +56,28 @@ Below is a reproduction of the *Declaration of the Occupation of New York City* 
 </div>
 
 {% for declaration in site.data.declarations %}
+  {% assign items = site.items | where_exp: "item", "item.declarations contains declaration.pid" %}
+  {% if items.size > 0 %}
   <h5 id="{{ declaration.pid }}">{{ declaration.label }}</h5>
 
   <div id='wax-gallery-declarations-container-{{ declaration.pid }}' class='wax-gallery-container full-width'>
     <div class='wax-inline-container'>
       <div id="wax-gallery-declarations-{{ declaration.pid }}" class="wax-gallery">
 
-        {% for item in site.items %}
-          {% if item.declarations contains declaration.pid %}
-            <div class='gallery-item'>
-              <a href='{{ item.url | absolute_url }}'>
-                <div class='hovereffect'>
-                  <img class='img-responsive gallery-thumb' src='{{ item.thumbnail | default: 'img/default.png'  | absolute_url }}' alt='{{ item.label | default: item.pid | escape }}'/>
-                  <div class='overlay'>
-                    <p class='info'>{{ item.label | default: item.pid | escape }}</p>
-                  </div>
+        {% for item in items %}
+          <div class='gallery-item'>
+            <a href='{{ item.url | absolute_url }}'>
+              <div class='hovereffect'>
+                <img class='img-responsive gallery-thumb' src='{{ item.thumbnail | default: 'img/default.png'  | absolute_url }}' alt='{{ item.label | default: item.pid | escape }}'/>
+                <div class='overlay'>
+                  <p class='info'>{{ item.label | default: item.pid | escape }}</p>
                 </div>
-              </a>
-            </div>
-          {% endif %}
+              </div>
+            </a>
+          </div>
         {% endfor %}
       </div>
     </div>
   </div>
+  {% endif %}
 {% endfor %}

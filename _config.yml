@@ -16,6 +16,11 @@ collections:
     layout: theme
     metadata:
       source: themes.csv
+  declarations:
+    output: true
+    layout: declaration
+    metadata:
+      source: declarations.csv
   items:
     output: true
     layout: occupy_item
@@ -28,20 +33,25 @@ collections:
       source: images
 
 menu:
-  - label: Introduction
-    link: '/#introduction'
+  - label: Home
+    link: /
   - label: About
-    link: /about/
+    sub:
+      - label: About the Exhibit
+        link: /about/
+      - label: Bibliography
+        link: /bibliography/
+  - label: Declaration of the Occupation
+    link: /declarations/
   - label: Browse the Collection
     sub:
       - label: By Theme
         link: /themes/
-      - label: By Declaration
-        link: /declarations/
       - label: By Object Type
         link: /types/
-  - label: Bibliography
-    link: /bibliography/
+      - label: By Declaration
+        link : /declarations/#read-the-document-and-browse-related-items
+
 
 footer:
   links:

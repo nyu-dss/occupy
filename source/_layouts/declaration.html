@@ -3,8 +3,12 @@ layout: default
 ---
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="{{ '/themes' | absolute_url }}">Browse by Theme</a></li>
-    <li class="breadcrumb-item active" aria-current="page">{{ page.label }}</li>
+    <li class="breadcrumb-item">
+      <a href="{{ '/declarations#read-the-document-and-browse-related-items' | absolute_url }}">
+        Browse by Declaration
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.label | truncate: 50 }}</li>
   </ol>
 </nav>
 
@@ -13,13 +17,13 @@ layout: default
 
 <h3>Related Items</h3>
 
-{% assign items = site.items | where_exp: "item", "item.themes contains page.pid" %}
+{% assign items = site.items | where_exp: "item", "item.declarations contains page.pid" %}
 {% if items.size > 0 %}
-<h5 id="{{ theme.pid }}">{{ theme.label }}</h5>
+<h5 id="{{ declaration.pid }}">{{ declaration.label }}</h5>
 
-<div id='wax-gallery-themes-container-{{ theme.pid }}' class='wax-gallery-container full-width'>
+<div id='wax-gallery-declarations-container-{{ declaration.pid }}' class='wax-gallery-container full-width'>
   <div class='wax-inline-container'>
-    <div id="wax-gallery-themes-{{ theme.pid }}" class="wax-gallery">
+    <div id="wax-gallery-declarations-{{ declaration.pid }}" class="wax-gallery">
 
       {% for item in items %}
         <div class='gallery-item'>

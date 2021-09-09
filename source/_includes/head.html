@@ -1,0 +1,15 @@
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    {{ site.title | strip_html | truncate: 20 }}{% if page.label %} | {{ page.label  | strip_html | truncate: 20 }}{% elsif page.title %} | {{ page.title  | strip_html | truncate: 20 }}{% endif %}
+  </title>
+
+  <link rel='canonical' href='{{ page.url | absolute_url }}'/>
+  <!-- <link rel='icon' type='image/png' href="{{ 'img/logo.png' | absolute_url }}"> -->
+  <link rel='stylesheet' href="{{ '/assets/styles.css' | absolute_url }}"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <script type='text/javascript' src="{{ '/assets/jquery-3.2.1.min.js' | absolute_url }}"></script>
+  <noscript><p>Please enable JavaScript in your browser.</p></noscript>
+</head>

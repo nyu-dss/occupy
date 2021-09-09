@@ -42,7 +42,7 @@
   <dd>
     <ul>
       {% for t in page.themes %}
-        {% assign theme = site.data.themes | where: 'pid', t | first %}
+        {% assign theme = site.data.themes | find: 'pid', t %}
         <li><a href="{{ '/themes' | absolute_url }}/{{ theme.pid }}/">{{ theme.label }}</a></li>
       {% endfor %}
     </ul>
@@ -54,8 +54,8 @@
   <dd>
     <ul>
       {% for d in page.declarations %}
-        {% assign declaration = site.data.declarations | where: 'pid', d | first %}
-        <li><a href="{{ '/declarations' | absolute_url }}#{{ declaration.pid }}">{{ declaration.label }}</a></li>
+        {% assign declaration = site.data.declarations | find: 'pid', d %}
+        <li><a href="{{ '/declarations' | absolute_url }}/{{ declaration.pid }}">{{ declaration.label }}</a></li>
       {% endfor %}
     </ul>
   </dd>

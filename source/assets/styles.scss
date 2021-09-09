@@ -242,3 +242,7 @@ html {
   text-align: center;
   a { color: black; }
 }
+
+.dropdown-toggle::after {
+  margin-left: unset !important;
+}
