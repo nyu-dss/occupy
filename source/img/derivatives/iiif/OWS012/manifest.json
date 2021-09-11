@@ -3,7 +3,7 @@ layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/OWS012/manifest.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS012/manifest.json",
   "@type": "sc:Manifest",
   "label": "OWS012",
   "thumbnail": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS012_OWS012_1/full/250,/0/default.jpg",
@@ -11,12 +11,12 @@ layout: none
   "viewingHint": "individuals",
   "sequences": [
     {
-      "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/sequence/OWS012_OWS012_1.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/OWS012_OWS012_1.json",
       "@type": "sc:Sequence",
       "canvases": [
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS012_OWS012_1.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS012_OWS012_1.json",
           "label": "Page 1",
           "width": 2265,
           "height": 5109,
@@ -24,7 +24,7 @@ layout: none
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/annotation/OWS012_OWS012_1.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS012_OWS012_1.json",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS012_OWS012_1/full/full/0/default.jpg",
@@ -38,13 +38,13 @@ layout: none
                 "width": 2265,
                 "height": 5109
               },
-              "on": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS012_OWS012_1.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS012_OWS012_1.json"
             }
           ]
         },
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS012_OWS012_3.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS012_OWS012_3.json",
           "label": "Page 2",
           "width": 2265,
           "height": 5072,
@@ -52,7 +52,7 @@ layout: none
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/annotation/OWS012_OWS012_3.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS012_OWS012_3.json",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS012_OWS012_3/full/full/0/default.jpg",
@@ -66,13 +66,13 @@ layout: none
                 "width": 2265,
                 "height": 5072
               },
-              "on": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS012_OWS012_3.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS012_OWS012_3.json"
             }
           ]
         },
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS012_OWS012_4.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS012_OWS012_4.json",
           "label": "Page 3",
           "width": 2265,
           "height": 5072,
@@ -80,7 +80,7 @@ layout: none
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/annotation/OWS012_OWS012_4.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS012_OWS012_4.json",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS012_OWS012_4/full/full/0/default.jpg",
@@ -94,13 +94,12 @@ layout: none
                 "width": 2265,
                 "height": 5072
               },
-              "on": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS012_OWS012_4.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS012_OWS012_4.json"
             }
           ]
         }
       ]
     }
   ],
-  "full": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS012_OWS012_1/full/full/0/default.jpg",
-  "fullwidth": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS012_OWS012_1/full/1140,/0/default.jpg"
+  "full": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS012_OWS012_1/full/full/0/default.jpg"
 }

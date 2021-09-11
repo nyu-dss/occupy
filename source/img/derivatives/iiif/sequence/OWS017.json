@@ -2,12 +2,12 @@
 layout: none
 ---
 {
-  "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/sequence/OWS017.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/OWS017.json",
   "@type": "sc:Sequence",
   "canvases": [
     {
       "@type": "sc:Canvas",
-      "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS017.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS017.json",
       "label": "front",
       "width": 5000,
       "height": 6447,
@@ -15,7 +15,7 @@ layout: none
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/annotation/OWS017.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS017.json",
           "motivation": "sc:painting",
           "resource": {
             "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS017/full/full/0/default.jpg",
@@ -29,7 +29,7 @@ layout: none
             "width": 5000,
             "height": 6447
           },
-          "on": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS017.json"
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS017.json"
         }
       ]
     }

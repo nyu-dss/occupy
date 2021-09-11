@@ -3,7 +3,7 @@ layout: none
 ---
 {
   "@type": "sc:Canvas",
-  "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS005_OWS005_2.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS005_OWS005_2.json",
   "label": "Page 2",
   "width": 3247,
   "height": 5072,
@@ -11,7 +11,7 @@ layout: none
   "images": [
     {
       "@type": "oa:Annotation",
-      "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/annotation/OWS005_OWS005_2.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS005_OWS005_2.json",
       "motivation": "sc:painting",
       "resource": {
         "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS005_OWS005_2/full/full/0/default.jpg",
@@ -25,7 +25,7 @@ layout: none
         "width": 3247,
         "height": 5072
       },
-      "on": "{{ '/' | absolute_url }}/img/derivatives/iiif/canvas/OWS005_OWS005_2.json"
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS005_OWS005_2.json"
     }
   ],
   "@context": "http://iiif.io/api/presentation/2/context.json"

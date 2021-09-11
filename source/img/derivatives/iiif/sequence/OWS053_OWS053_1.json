@@ -1,0 +1,66 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/OWS053_OWS053_1.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS053_OWS053_1.json",
+      "label": "Page 1",
+      "width": 5000,
+      "height": 4703,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS053_OWS053_1/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS053_OWS053_1.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS053_OWS053_1/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "tiffload_source",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS053_OWS053_1",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 5000,
+            "height": 4703
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS053_OWS053_1.json"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS053_OWS053_2.json",
+      "label": "Page 2",
+      "width": 5000,
+      "height": 5184,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS053_OWS053_2/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS053_OWS053_2.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS053_OWS053_2/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "tiffload_source",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS053_OWS053_2",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 5000,
+            "height": 5184
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/OWS053_OWS053_2.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

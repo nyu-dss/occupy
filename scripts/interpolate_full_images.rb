@@ -7,7 +7,7 @@
 require 'fileutils'
 require 'wax_tasks'
 
-METADATA_FILE = './_data/occupy.csv'
+METADATA_FILE = './source/_data/occupy.csv'
 metadata = WaxTasks::Utils.ingest METADATA_FILE
 
 def csv_string(records)
