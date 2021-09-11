@@ -1,6 +1,6 @@
 {
   "@type": "sc:Canvas",
-  "@id": "/occupy//img/derivatives/iiif/canvas/OWS016.json",
+  "@id": "/occupy/img/derivatives/iiif/canvas/OWS016.json",
   "label": "front",
   "width": 5000,
   "height": 6410,
@@ -8,7 +8,7 @@
   "images": [
     {
       "@type": "oa:Annotation",
-      "@id": "/occupy//img/derivatives/iiif/annotation/OWS016.json",
+      "@id": "/occupy/img/derivatives/iiif/annotation/OWS016.json",
       "motivation": "sc:painting",
       "resource": {
         "@id": "/occupy//img/derivatives/iiif/images/OWS016/full/full/0/default.jpg",
@@ -22,7 +22,7 @@
         "width": 5000,
         "height": 6410
       },
-      "on": "/occupy//img/derivatives/iiif/canvas/OWS016.json"
+      "on": "/occupy/img/derivatives/iiif/canvas/OWS016.json"
     }
   ],
   "@context": "http://iiif.io/api/presentation/2/context.json"

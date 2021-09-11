@@ -1,10 +1,10 @@
 {
-  "@id": "/occupy//img/derivatives/iiif/sequence/OWS007_OWS007_1.json",
+  "@id": "/occupy/img/derivatives/iiif/sequence/OWS007_OWS007_1.json",
   "@type": "sc:Sequence",
   "canvases": [
     {
       "@type": "sc:Canvas",
-      "@id": "/occupy//img/derivatives/iiif/canvas/OWS007_OWS007_1.json",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS007_OWS007_1.json",
       "label": "Page 1",
       "width": 2556,
       "height": 3218,
@@ -12,7 +12,7 @@
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "/occupy//img/derivatives/iiif/annotation/OWS007_OWS007_1.json",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS007_OWS007_1.json",
           "motivation": "sc:painting",
           "resource": {
             "@id": "/occupy//img/derivatives/iiif/images/OWS007_OWS007_1/full/full/0/default.jpg",
@@ -26,13 +26,13 @@
             "width": 2556,
             "height": 3218
           },
-          "on": "/occupy//img/derivatives/iiif/canvas/OWS007_OWS007_1.json"
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS007_OWS007_1.json"
         }
       ]
     },
     {
       "@type": "sc:Canvas",
-      "@id": "/occupy//img/derivatives/iiif/canvas/OWS007_OWS007_2.json",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS007_OWS007_2.json",
       "label": "Page 2",
       "width": 2556,
       "height": 3218,
@@ -40,7 +40,7 @@
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "/occupy//img/derivatives/iiif/annotation/OWS007_OWS007_2.json",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS007_OWS007_2.json",
           "motivation": "sc:painting",
           "resource": {
             "@id": "/occupy//img/derivatives/iiif/images/OWS007_OWS007_2/full/full/0/default.jpg",
@@ -54,7 +54,7 @@
             "width": 2556,
             "height": 3218
           },
-          "on": "/occupy//img/derivatives/iiif/canvas/OWS007_OWS007_2.json"
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS007_OWS007_2.json"
         }
       ]
     }

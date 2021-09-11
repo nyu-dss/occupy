@@ -1,10 +1,10 @@
 {
-  "@id": "/occupy//img/derivatives/iiif/sequence/OWS017.json",
+  "@id": "/occupy/img/derivatives/iiif/sequence/OWS017.json",
   "@type": "sc:Sequence",
   "canvases": [
     {
       "@type": "sc:Canvas",
-      "@id": "/occupy//img/derivatives/iiif/canvas/OWS017.json",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS017.json",
       "label": "front",
       "width": 5000,
       "height": 6447,
@@ -12,7 +12,7 @@
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "/occupy//img/derivatives/iiif/annotation/OWS017.json",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS017.json",
           "motivation": "sc:painting",
           "resource": {
             "@id": "/occupy//img/derivatives/iiif/images/OWS017/full/full/0/default.jpg",
@@ -26,7 +26,7 @@
             "width": 5000,
             "height": 6447
           },
-          "on": "/occupy//img/derivatives/iiif/canvas/OWS017.json"
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS017.json"
         }
       ]
     }

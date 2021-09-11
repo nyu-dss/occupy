@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "/occupy/img/derivatives/iiif/canvas/OWS075.json",
+  "label": "front",
+  "width": 5000,
+  "height": 5600,
+  "thumbnail": "/occupy/img/derivatives/iiif/images/OWS075/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "/occupy/img/derivatives/iiif/annotation/OWS075.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "/occupy/img/derivatives/iiif/images/OWS075/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "tiffload_source",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "/occupy/img/derivatives/iiif/images/OWS075",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 5000,
+        "height": 5600
+      },
+      "on": "/occupy/img/derivatives/iiif/canvas/OWS075.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

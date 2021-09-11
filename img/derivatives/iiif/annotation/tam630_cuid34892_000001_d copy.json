@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "/occupy/img/derivatives/iiif/annotation/tam630_cuid34892_000001_d copy.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "/occupy/img/derivatives/iiif/images/tam630_cuid34892_000001_d copy/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "tiffload_source",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "/occupy/img/derivatives/iiif/images/tam630_cuid34892_000001_d copy",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 5000,
+    "height": 4154
+  },
+  "on": "/occupy/img/derivatives/iiif/canvas/tam630_cuid34892_000001_d copy.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

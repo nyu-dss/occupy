@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "/occupy/img/derivatives/iiif/annotation/OWS047_OWS047_1.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "/occupy/img/derivatives/iiif/images/OWS047_OWS047_1/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "tiffload_source",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "/occupy/img/derivatives/iiif/images/OWS047_OWS047_1",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 5000,
+    "height": 3359
+  },
+  "on": "/occupy/img/derivatives/iiif/canvas/OWS047_OWS047_1.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

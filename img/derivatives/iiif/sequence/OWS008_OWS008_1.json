@@ -1,10 +1,10 @@
 {
-  "@id": "/occupy//img/derivatives/iiif/sequence/OWS008_OWS008_1.json",
+  "@id": "/occupy/img/derivatives/iiif/sequence/OWS008_OWS008_1.json",
   "@type": "sc:Sequence",
   "canvases": [
     {
       "@type": "sc:Canvas",
-      "@id": "/occupy//img/derivatives/iiif/canvas/OWS008_OWS008_1.json",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS008_OWS008_1.json",
       "label": "Page 1",
       "width": 3192,
       "height": 5054,
@@ -12,7 +12,7 @@
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "/occupy//img/derivatives/iiif/annotation/OWS008_OWS008_1.json",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS008_OWS008_1.json",
           "motivation": "sc:painting",
           "resource": {
             "@id": "/occupy//img/derivatives/iiif/images/OWS008_OWS008_1/full/full/0/default.jpg",
@@ -26,13 +26,13 @@
             "width": 3192,
             "height": 5054
           },
-          "on": "/occupy//img/derivatives/iiif/canvas/OWS008_OWS008_1.json"
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS008_OWS008_1.json"
         }
       ]
     },
     {
       "@type": "sc:Canvas",
-      "@id": "/occupy//img/derivatives/iiif/canvas/OWS008_OWS008_2.json",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS008_OWS008_2.json",
       "label": "Page 2",
       "width": 5000,
       "height": 3854,
@@ -40,7 +40,7 @@
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "/occupy//img/derivatives/iiif/annotation/OWS008_OWS008_2.json",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS008_OWS008_2.json",
           "motivation": "sc:painting",
           "resource": {
             "@id": "/occupy//img/derivatives/iiif/images/OWS008_OWS008_2/full/full/0/default.jpg",
@@ -54,13 +54,13 @@
             "width": 5000,
             "height": 3854
           },
-          "on": "/occupy//img/derivatives/iiif/canvas/OWS008_OWS008_2.json"
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS008_OWS008_2.json"
         }
       ]
     },
     {
       "@type": "sc:Canvas",
-      "@id": "/occupy//img/derivatives/iiif/canvas/OWS008_OWS008_3.json",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS008_OWS008_3.json",
       "label": "Page 3",
       "width": 3301,
       "height": 4999,
@@ -68,7 +68,7 @@
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "/occupy//img/derivatives/iiif/annotation/OWS008_OWS008_3.json",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS008_OWS008_3.json",
           "motivation": "sc:painting",
           "resource": {
             "@id": "/occupy//img/derivatives/iiif/images/OWS008_OWS008_3/full/full/0/default.jpg",
@@ -82,7 +82,7 @@
             "width": 3301,
             "height": 4999
           },
-          "on": "/occupy//img/derivatives/iiif/canvas/OWS008_OWS008_3.json"
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS008_OWS008_3.json"
         }
       ]
     }

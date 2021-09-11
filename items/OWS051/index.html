@@ -18,7 +18,7 @@
 
 
   <body>
-    <time datetime='2021-09-11 01:29'></time>
+    <time datetime='2021-09-11 02:34'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
    <h1 class="site-title centered">
@@ -94,9 +94,32 @@
 <div class='item-view'>
   <span class='pagination-link' id='prevlink'></span>
   
-      <div class="coming-soon">
-        <h4 class="coming-soon-text">Image scans coming soon!</h4>
-      </div>
+    <div id="osd" class="image-viewer"></div>
+<script defer src="/occupy/assets/openseadragon/openseadragon.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    var manifestUrl = "/occupy/img/derivatives/iiif/OWS051/manifest.json";
+    $.getJSON(manifestUrl, function(data) {
+      var tileSources = [];
+      $.each(data.sequences[0].canvases, function(_k, val) {
+        tileSources.push({
+          tileSource: val.images[0].resource.service['@id'] + '/info.json',
+          referenceStripThumbnailUrl: val.thumbnail
+        });
+      });
+      OpenSeadragon({
+        id: "osd",
+        preload: true,
+        sequenceMode: true,
+        prefixUrl: "/occupy/assets/openseadragon/images/",
+        tileSources: tileSources,
+        showReferenceStrip: true,
+      });
+    });
+  });
+</script>
+
   
   <span class='pagination-link' id='nextlink'></span>
 </div>

@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "/occupy/img/derivatives/iiif/images/OWS050_OWS050_2",
+  "protocol": "http://iiif.io/api/image",
+  "width": 4761,
+  "height": 5985,
+  "sizes": [
+    {
+      "width": 4761,
+      "height": 5985
+    },
+    {
+      "width": 250,
+      "height": 314
+    },
+    {
+      "width": 1140,
+      "height": 1433
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

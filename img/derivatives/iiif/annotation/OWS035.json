@@ -1,6 +1,6 @@
 {
   "@type": "oa:Annotation",
-  "@id": "/occupy//img/derivatives/iiif/annotation/OWS035.json",
+  "@id": "/occupy/img/derivatives/iiif/annotation/OWS035.json",
   "motivation": "sc:painting",
   "resource": {
     "@id": "/occupy//img/derivatives/iiif/images/OWS035/full/full/0/default.jpg",
@@ -14,6 +14,6 @@
     "width": 5000,
     "height": 6492
   },
-  "on": "/occupy//img/derivatives/iiif/canvas/OWS035.json",
+  "on": "/occupy/img/derivatives/iiif/canvas/OWS035.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"
 }
