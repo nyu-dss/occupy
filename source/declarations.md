@@ -54,30 +54,3 @@ Below is a reproduction of the *Declaration of the Occupation of New York City* 
 
   <p>*These grievances are not all-inclusive.</p>
 </div>
-
-{% for declaration in site.data.declarations %}
-  {% assign items = site.items | where_exp: "item", "item.declarations contains declaration.pid" %}
-  {% if items.size > 0 %}
-  <h5 id="{{ declaration.pid }}">{{ declaration.label }}</h5>
-
-  <div id='wax-gallery-declarations-container-{{ declaration.pid }}' class='wax-gallery-container full-width'>
-    <div class='wax-inline-container'>
-      <div id="wax-gallery-declarations-{{ declaration.pid }}" class="wax-gallery">
-
-        {% for item in items %}
-          <div class='gallery-item'>
-            <a href='{{ item.url | absolute_url }}'>
-              <div class='hovereffect'>
-                <img class='img-responsive gallery-thumb' src='{{ item.thumbnail | default: 'img/default.png'  | absolute_url }}' alt='{{ item.label | default: item.pid | escape }}'/>
-                <div class='overlay'>
-                  <p class='info'>{{ item.label | default: item.pid | escape }}</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  {% endif %}
-{% endfor %}
