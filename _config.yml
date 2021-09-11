@@ -29,6 +29,7 @@ collections:
       split:
         themes: ','
         declarations: ','
+        associated_web_archives: '|'
     images:
       source: images
 

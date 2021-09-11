@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: https://github.com/minicomp/wax_tasks.git
-  revision: c0c78bc623a22522a531436048414d2ae4944136
+  revision: 31627ed56a3356c783fe3ad81c9aac677d9916e4
   branch: feature/pipe-separated-lists
   specs:
     wax_tasks (1.2.0)
