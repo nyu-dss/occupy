@@ -105,11 +105,6 @@
       "label": "OWS038"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/tam630_cuid34892_000001_d copy/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "tam630_cuid34892_000001_d copy"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS006/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS006"
@@ -273,6 +268,11 @@
       "@id": "/occupy/img/derivatives/iiif/OWS042/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS042"
+    },
+    {
+      "@id": "/occupy/img/derivatives/iiif/OWS081/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS081"
     },
     {
       "@id": "/occupy/img/derivatives/iiif/OWS008/manifest.json",

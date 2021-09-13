@@ -17,7 +17,7 @@
           "resource": {
             "@id": "/occupy/img/derivatives/iiif/images/OWS044/full/full/0/default.jpg",
             "@type": "dcterms:Image",
-            "format": "tiffload_source",
+            "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "/occupy/img/derivatives/iiif/images/OWS044",

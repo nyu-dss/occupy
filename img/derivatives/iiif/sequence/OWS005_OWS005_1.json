@@ -8,19 +8,19 @@
       "label": "Page 1",
       "width": 3247,
       "height": 5072,
-      "thumbnail": "/occupy//img/derivatives/iiif/images/OWS005_OWS005_1/full/250,/0/default.jpg",
+      "thumbnail": "/occupy/img/derivatives/iiif/images/OWS005_OWS005_1/full/250,/0/default.jpg",
       "images": [
         {
           "@type": "oa:Annotation",
           "@id": "/occupy/img/derivatives/iiif/annotation/OWS005_OWS005_1.json",
           "motivation": "sc:painting",
           "resource": {
-            "@id": "/occupy//img/derivatives/iiif/images/OWS005_OWS005_1/full/full/0/default.jpg",
+            "@id": "/occupy/img/derivatives/iiif/images/OWS005_OWS005_1/full/full/0/default.jpg",
             "@type": "dcterms:Image",
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "/occupy//img/derivatives/iiif/images/OWS005_OWS005_1",
+              "@id": "/occupy/img/derivatives/iiif/images/OWS005_OWS005_1",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
             "width": 3247,
@@ -36,19 +36,19 @@
       "label": "Page 2",
       "width": 3247,
       "height": 5072,
-      "thumbnail": "/occupy//img/derivatives/iiif/images/OWS005_OWS005_2/full/250,/0/default.jpg",
+      "thumbnail": "/occupy/img/derivatives/iiif/images/OWS005_OWS005_2/full/250,/0/default.jpg",
       "images": [
         {
           "@type": "oa:Annotation",
           "@id": "/occupy/img/derivatives/iiif/annotation/OWS005_OWS005_2.json",
           "motivation": "sc:painting",
           "resource": {
-            "@id": "/occupy//img/derivatives/iiif/images/OWS005_OWS005_2/full/full/0/default.jpg",
+            "@id": "/occupy/img/derivatives/iiif/images/OWS005_OWS005_2/full/full/0/default.jpg",
             "@type": "dcterms:Image",
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "/occupy//img/derivatives/iiif/images/OWS005_OWS005_2",
+              "@id": "/occupy/img/derivatives/iiif/images/OWS005_OWS005_2",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
             "width": 3247,

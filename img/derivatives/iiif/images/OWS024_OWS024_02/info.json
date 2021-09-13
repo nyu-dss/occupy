@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "/occupy//img/derivatives/iiif/images/OWS024_OWS024_02",
+  "@id": "/occupy/img/derivatives/iiif/images/OWS024_OWS024_02",
   "protocol": "http://iiif.io/api/image",
   "width": 4683,
   "height": 6109,

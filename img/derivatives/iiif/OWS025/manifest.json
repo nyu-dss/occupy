@@ -3,7 +3,7 @@
   "@id": "/occupy/img/derivatives/iiif/OWS025/manifest.json",
   "@type": "sc:Manifest",
   "label": "OWS025",
-  "thumbnail": "/occupy//img/derivatives/iiif/images/OWS025_OWS025_01/full/250,/0/default.jpg",
+  "thumbnail": "/occupy/img/derivatives/iiif/images/OWS025_OWS025_01/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
   "sequences": [
@@ -17,19 +17,19 @@
           "label": "front",
           "width": 5000,
           "height": 6446,
-          "thumbnail": "/occupy//img/derivatives/iiif/images/OWS025_OWS025_01/full/250,/0/default.jpg",
+          "thumbnail": "/occupy/img/derivatives/iiif/images/OWS025_OWS025_01/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "/occupy/img/derivatives/iiif/annotation/OWS025_OWS025_01.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/occupy//img/derivatives/iiif/images/OWS025_OWS025_01/full/full/0/default.jpg",
+                "@id": "/occupy/img/derivatives/iiif/images/OWS025_OWS025_01/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "/occupy//img/derivatives/iiif/images/OWS025_OWS025_01",
+                  "@id": "/occupy/img/derivatives/iiif/images/OWS025_OWS025_01",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 5000,
@@ -42,5 +42,5 @@
       ]
     }
   ],
-  "full": "/occupy//img/derivatives/iiif/images/OWS025_OWS025_01/full/full/0/default.jpg"
+  "full": "/occupy/img/derivatives/iiif/images/OWS025_OWS025_01/full/full/0/default.jpg"
 }

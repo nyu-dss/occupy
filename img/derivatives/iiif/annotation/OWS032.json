@@ -3,12 +3,12 @@
   "@id": "/occupy/img/derivatives/iiif/annotation/OWS032.json",
   "motivation": "sc:painting",
   "resource": {
-    "@id": "/occupy//img/derivatives/iiif/images/OWS032/full/full/0/default.jpg",
+    "@id": "/occupy/img/derivatives/iiif/images/OWS032/full/full/0/default.jpg",
     "@type": "dcterms:Image",
     "format": "image/jpeg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "/occupy//img/derivatives/iiif/images/OWS032",
+      "@id": "/occupy/img/derivatives/iiif/images/OWS032",
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
     "width": 5000,
