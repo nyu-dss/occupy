@@ -117,6 +117,7 @@ html {
 }
 
 #wax-main {
+  padding-top: unset !important;
   h3 {
     font-family: 'Cabin Sketch', 'Work Sans', 'sans-serif';
     text-transform: uppercase;
@@ -129,9 +130,11 @@ html {
     margin-bottom: 0.5rem;
     line-height: unset !important;
   }
-}
-#wax-main {
-  padding-top: unset !important;
+  p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+  }
 }
 #wax-main, #wax-header {
   .nav-item {
@@ -152,9 +155,9 @@ html {
   .gallery-item {
     margin: unset !important;
     border: unset !important;
-    flex-basis: 140px;
-    max-height: 140px;
-    max-width: 200px !important;
+    flex-basis: 250px;
+    max-height: 200px !important;
+    max-width: 250px !important;
 
     flex-grow: 1;
     .overlay {
@@ -218,6 +221,9 @@ html {
   .navbar-nav .nav-item {
     z-index: unset !important;
   }
+  .navbar-nav .nav-link:active {
+    background-color: unset;
+  }
 }
 
 
@@ -231,10 +237,6 @@ html {
   }
 }
 
-#wax-header .navbar-nav .nav-link:active {
-  background-color: unset;
-}
-
 .breadcrumb {
   background-color: unset !important;
   padding: 0.75rem 0;
@@ -245,4 +247,16 @@ html {
 
 .dropdown-toggle::after {
   margin-left: unset !important;
+}
+
+.content-warning {
+  text-transform: lowercase;
+  color: grey;
+  font-style: italic;
+}
+
+.cw {
+  font-size: .8rem;
+  font-style: italic;
+  font-weight: normal;
 }

@@ -29,7 +29,7 @@ layout: none
               "resource": {
                 "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS052_OWS052_1/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
-                "format": "tiffload_source",
+                "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS052_OWS052_1",
@@ -57,7 +57,7 @@ layout: none
               "resource": {
                 "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS052_OWS052_2/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
-                "format": "tiffload_source",
+                "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS052_OWS052_2",
@@ -73,6 +73,5 @@ layout: none
       ]
     }
   ],
-  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS052_OWS052_1/full/full/0/default.jpg",
-  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS052_OWS052_1/full/1140,/0/default.jpg"
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS052_OWS052_1/full/full/0/default.jpg"
 }

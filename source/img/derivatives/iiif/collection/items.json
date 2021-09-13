@@ -108,11 +108,6 @@ layout: none
       "label": "OWS038"
     },
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/tam630_cuid34892_000001_d copy/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "tam630_cuid34892_000001_d copy"
-    },
-    {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS006/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS006"
@@ -276,6 +271,11 @@ layout: none
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS042/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS042"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS081/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS081"
     },
     {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/OWS008/manifest.json",

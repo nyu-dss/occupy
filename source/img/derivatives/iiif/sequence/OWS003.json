@@ -11,19 +11,19 @@ layout: none
       "label": "front",
       "width": 5000,
       "height": 3809,
-      "thumbnail": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS003/full/250,/0/default.jpg",
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS003/full/250,/0/default.jpg",
       "images": [
         {
           "@type": "oa:Annotation",
           "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS003.json",
           "motivation": "sc:painting",
           "resource": {
-            "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS003/full/full/0/default.jpg",
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS003/full/full/0/default.jpg",
             "@type": "dcterms:Image",
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS003",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS003",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
             "width": 5000,

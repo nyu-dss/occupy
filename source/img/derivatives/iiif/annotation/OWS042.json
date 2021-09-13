@@ -6,12 +6,12 @@ layout: none
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS042.json",
   "motivation": "sc:painting",
   "resource": {
-    "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS042/full/full/0/default.jpg",
+    "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS042/full/full/0/default.jpg",
     "@type": "dcterms:Image",
     "format": "image/jpeg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS042",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS042",
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
     "width": 4848,

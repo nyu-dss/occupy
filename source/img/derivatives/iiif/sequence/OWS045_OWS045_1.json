@@ -20,7 +20,7 @@ layout: none
           "resource": {
             "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS045_OWS045_1/full/full/0/default.jpg",
             "@type": "dcterms:Image",
-            "format": "tiffload_source",
+            "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS045_OWS045_1",
@@ -48,7 +48,7 @@ layout: none
           "resource": {
             "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS045_OWS045_2/full/full/0/default.jpg",
             "@type": "dcterms:Image",
-            "format": "tiffload_source",
+            "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
               "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS045_OWS045_2",

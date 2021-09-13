@@ -27,7 +27,7 @@ layout: default
             <div class='hovereffect'>
               <img class='img-responsive gallery-thumb' src='{{ item.thumbnail | default: 'img/default.png'  | absolute_url }}' alt='{{ item.label | default: item.pid | escape }}'/>
               <div class='overlay'>
-                <p class='info'>{{ item.label | default: item.pid | escape }}</p>
+                <p class='info'>{{ item.label | default: item.pid | escape }} {% if item.content_warning.size > 0 %}<br><br><span class='cw'>{{ item.content_warning }}</span>{% endif %}</p>
               </div>
             </div>
           </a>

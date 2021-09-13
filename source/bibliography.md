@@ -4,6 +4,7 @@ title: Bibliography
 permalink: /bibliography/
 ---
 
+
 In the spirit of the Occupy Wall Street People’s Library, and Occupy’s commitment to the freedom of information, we share with you the resources we used in the development of this exhibit.
 
 <hr>
@@ -18,6 +19,9 @@ Adam J. Barker, “Already Occupied: Indigenous Peoples, Settler Colonialism and
 
 
 Dashiell Bennett, “[Scenes from the 'Million Hoodie March' for Trayvon Martin,](https://www.theatlantic.com/national/archive/2012/03/scenes-million-hoodie-march-trayvon-martin/330269/)” The Atlantic, March 22, 2012.
+
+
+Brian Boucher, “[Artists Occupy Wall Street](https://www.artnews.com/art-in-america/features/occupy-wall-street-artists-58508/),” Artnews.com, October 18, 2011.
 
 
 Emahunn Raheem Ali Campbell, "A Critique of the Occupy Movement from a Black Occupier," _The Black Scholar_, Volume 41, No. 4 (2011): 42-51.
@@ -68,7 +72,7 @@ Emily Stewart, “[We Are (Still) the 99 Percent](https://www.vox.com/the-highli
 Neil Ungerleider, “[The Stealth Leaders of Occupy Wall Street](https://www.fastcompany.com/1785698/stealth-leaders-occupy-wall-street),” _Fast Company_, October 7, 2011.
 
 
-Jessica Yee, “[Occupy Wall Street: The Game of Colonialism and Further Nationalism to be Decolonized From the “Left”](https://bermudaradical.wordpress.com/2011/10/01/occupy-wall-street-the-game-of-colonialism-and-further-nationalism-to-be-decolonized-from-the-%E2%80%9Cleft%E2%80%9D/), Decolonize Wall Street, _UnsettlingAmerica.Wordpress.com_, October 3, 2011. (originally published on Racialicious September 30, 2011).
+Jessica Yee, “[Occupy Wall Street: The Game of Colonialism and Further Nationalism to be Decolonized From the “Left”](https://bermudaradical.wordpress.com/2011/10/01/occupy-wall-street-the-game-of-colonialism-and-further-nationalism-to-be-decolonized-from-the-%E2%80%9Cleft%E2%80%9D/), Decolonize Wall Street, _UnsettlingAmerica.Wordpress.com_, October 3, 2011. (Originally published on Racialicious.com on September 30, 2011).
 
 
 ### **Films/Online Videos:**
@@ -117,3 +121,10 @@ Nathan Schneider, _Thank you, Anarchy: Notes from the Occupy Apocalypse_, (Berke
 
 
 Writers for the 99%, _Occupying Wall Street: The Inside Story of an Action that Changed America_, (New York: OR Books, 2011).
+
+
+### **Digital Collections:**
+
+[Occupy CUNY Digital Collection](https://cdha.cuny.edu/collections/show/222), CUNY Digital History Archive, City University of New York.
+
+[Occupy Wall Street Signs](https://digitalcollections.nyhistory.org/islandora/search/occupy%20wall%20street?type=dismax&islandora_solr_search_navigation=0), New York Historical Society Digital Collections, New York Historical Society

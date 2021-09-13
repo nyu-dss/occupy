@@ -7,19 +7,19 @@ layout: none
   "label": "Page 1",
   "width": 4738,
   "height": 5690,
-  "thumbnail": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS024_OWS024_01/full/250,/0/default.jpg",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS024_OWS024_01/full/250,/0/default.jpg",
   "images": [
     {
       "@type": "oa:Annotation",
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/OWS024_OWS024_01.json",
       "motivation": "sc:painting",
       "resource": {
-        "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS024_OWS024_01/full/full/0/default.jpg",
+        "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS024_OWS024_01/full/full/0/default.jpg",
         "@type": "dcterms:Image",
         "format": "image/jpeg",
         "service": {
           "@context": "http://iiif.io/api/image/2/context.json",
-          "@id": "{{ '/' | absolute_url }}/img/derivatives/iiif/images/OWS024_OWS024_01",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/OWS024_OWS024_01",
           "profile": "http://iiif.io/api/image/2/level0.json"
         },
         "width": 4738,
