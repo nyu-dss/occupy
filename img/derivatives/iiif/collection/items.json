@@ -20,11 +20,6 @@
       "label": "OWS057"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS017/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS017"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS068/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS068"
@@ -198,6 +193,11 @@
       "@id": "/occupy/img/derivatives/iiif/OWS010/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS010"
+    },
+    {
+      "@id": "/occupy/img/derivatives/iiif/OWS017/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "OWS017"
     },
     {
       "@id": "/occupy/img/derivatives/iiif/OWS058/manifest.json",

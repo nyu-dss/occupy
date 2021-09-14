@@ -5,7 +5,7 @@
     {
       "@type": "sc:Canvas",
       "@id": "/occupy/img/derivatives/iiif/canvas/OWS011_OWS011_1.json",
-      "label": "front",
+      "label": "Page 1",
       "width": 5000,
       "height": 6438,
       "thumbnail": "/occupy/img/derivatives/iiif/images/OWS011_OWS011_1/full/250,/0/default.jpg",
@@ -27,6 +27,34 @@
             "height": 6438
           },
           "on": "/occupy/img/derivatives/iiif/canvas/OWS011_OWS011_1.json"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "/occupy/img/derivatives/iiif/canvas/OWS011_OWS011_2.json",
+      "label": "Page 2",
+      "width": 5083,
+      "height": 6545,
+      "thumbnail": "/occupy/img/derivatives/iiif/images/OWS011_OWS011_2/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "/occupy/img/derivatives/iiif/annotation/OWS011_OWS011_2.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "/occupy/img/derivatives/iiif/images/OWS011_OWS011_2/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "/occupy/img/derivatives/iiif/images/OWS011_OWS011_2",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 5083,
+            "height": 6545
+          },
+          "on": "/occupy/img/derivatives/iiif/canvas/OWS011_OWS011_2.json"
         }
       ]
     }

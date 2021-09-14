@@ -6,8 +6,8 @@
       "@type": "sc:Canvas",
       "@id": "/occupy/img/derivatives/iiif/canvas/OWS017.json",
       "label": "front",
-      "width": 5000,
-      "height": 6447,
+      "width": 5119,
+      "height": 6600,
       "thumbnail": "/occupy/img/derivatives/iiif/images/OWS017/full/250,/0/default.jpg",
       "images": [
         {
@@ -23,8 +23,8 @@
               "@id": "/occupy/img/derivatives/iiif/images/OWS017",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
-            "width": 5000,
-            "height": 6447
+            "width": 5119,
+            "height": 6600
           },
           "on": "/occupy/img/derivatives/iiif/canvas/OWS017.json"
         }
