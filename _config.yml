@@ -51,7 +51,7 @@ menu:
       - label: By Object Type
         link: /types/
       - label: By Declaration
-        link : /declarations/#read-the-document-and-browse-related-items
+        link : /declarations/#read-the-declaration-and-browse-related-items
 
 
 footer:
