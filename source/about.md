@@ -15,16 +15,13 @@ Indigenous people across Turtle Island have always been at the forefront of move
 <p>
 We uplift Indigenous-led defense of the lands and waters against deforestation, fracking, pipelines, overfishing, and settler destruction of fragile ecosystems. <a href="https://decolonialatlas.wordpress.com/2021/08/23/blockadia-2021/">At present, there are more than seventeen land and water defense actions and blockades taking place across Turtle Island.</a> Indigenous Two Spirit, Queer, Femme, and youth activists are at these frontlines. We invite visitors to this digital exhibit to support frontline land defenders and water protectors. This is not a fully comprehensive list; however, a few places to learn more and to donate include:
 </p>
-<ul>
-  <li><a href="https://www.stopline3.org/">Stop Line 3</a>
-  <ul>
-    <li><a href="https://www.protestlaw.org/line3">Stop Line 3 legal fees</a>
-    <li><a href="https://www.stopline3bailfunds.org/">Stop Line 3 bail fund</a></li>
-  </ul>
-  <li><a href="https://twitter.com/GiniwCollective?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Giniw Collective</a></li>
-  <li><a href="https://www.mkea.info/">Mauna Kea Education and Awareness</a></li>
-  <li><a href="https://unistoten.camp/">Wet’suwet’en land defenders</a></li>
-</ul>
+
+- <a href="https://www.stopline3.org/">Stop Line 3</a>
+  + <a href="https://www.protestlaw.org/line3">Stop Line 3 legal fees</a>
+  + <a href="https://www.stopline3bailfunds.org/">Stop Line 3 bail fund</a>
+- <a href="https://twitter.com/GiniwCollective?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Giniw Collective</a>
+- <a href="https://www.mkea.info/">Mauna Kea Education and Awareness</a>
+- <a href="https://unistoten.camp/">Wet’suwet’en land defenders</a>
 
 <p>
 We amplify <a href="https://docs.google.com/document/d/1Uf3I5f1rjPmuT-CwPiTcyfM5yYBvupH8RACKZUEBx6o/edit">NYU Divest’s call for divestment from fossil fuels and private prisons</a> which reify settler colonialism and are in direct opposition to Indigenous sovereignty.
