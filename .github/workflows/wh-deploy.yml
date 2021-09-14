@@ -22,7 +22,7 @@ jobs:
       - name: prod build
         run: bundle exec rake reset && bundle exec rake build
       - name: deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ${{secrets.FTP_SERVER}}
           username: ${{secrets.FTP_USERNAME}}@${{secrets.FTP_SERVER}}
