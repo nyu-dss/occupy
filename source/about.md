@@ -13,19 +13,8 @@ The Tamiment Library and Robert F. Wagner Labor Archives, a repository within NY
 Indigenous people across Turtle Island have always been at the forefront of movement work that confronts the violence of white supremacist capitalism. At the outset of Occupy Wall Street, Indigenous people called into question what it meant to “occupy” stolen Indigenous lands. Who exactly were the 99% if the Occupy movement failed to include Indigenous people and forefront Indigenous sovereignty? How could a movement seek to disrupt corrupt governments, and corporate wealth, without acknowledging their colonial legacies and without recognizing the ways settler colonialism was ingrained in the tactics, frameworks, and language of the movement itself?
 </p>
 <p>
-We uplift Indigenous-led defense of the lands and waters against deforestation, fracking, pipelines, overfishing, and settler destruction of fragile ecosystems. <a href="https://decolonialatlas.wordpress.com/2021/08/23/blockadia-2021/">At present, there are more than seventeen land and water defense actions and blockades taking place across Turtle Island.</a> Indigenous Two Spirit, Queer, Femme, and youth activists are at these frontlines. We invite visitors to this digital exhibit to support frontline land defenders and water protectors. This is not a fully comprehensive list; however, a few places to learn more and to donate include:
-</p>
-
-- <a href="https://www.stopline3.org/">Stop Line 3</a>
-  + <a href="https://www.protestlaw.org/line3">Stop Line 3 legal fees</a>
-  + <a href="https://www.stopline3bailfunds.org/">Stop Line 3 bail fund</a>
-- <a href="https://twitter.com/GiniwCollective?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Giniw Collective</a>
-- <a href="https://www.mkea.info/">Mauna Kea Education and Awareness</a>
-- <a href="https://unistoten.camp/">Wet’suwet’en land defenders</a>
-
-<p>
-We amplify <a href="https://docs.google.com/document/d/1Uf3I5f1rjPmuT-CwPiTcyfM5yYBvupH8RACKZUEBx6o/edit">NYU Divest’s call for divestment from fossil fuels and private prisons</a> which reify settler colonialism and are in direct opposition to Indigenous sovereignty.
-</p>
+We uplift Indigenous-led defense of the lands and waters against deforestation, fracking, pipelines, overfishing, and settler destruction of fragile ecosystems. <a href="https://decolonialatlas.wordpress.com/2021/08/23/blockadia-2021/">At present, there are more than seventeen land and water defense actions and blockades taking place across Turtle Island.</a> Indigenous Two Spirit, Queer, Femme, and youth activists are at these frontlines.
+  
 <h3><strong>Gratitude</strong></h3>
 
 
