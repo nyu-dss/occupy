@@ -1,0 +1,40 @@
+<div id="osd" class="image-viewer"></div>
+<script defer src="{{ '/assets/openseadragon/openseadragon.min.js' | absolute_url }}"></script>
+
+<script>
+  $(document).ready(function () {
+    var manifestUrl = "{{ include.manifest | absolute_url }}";
+    $.getJSON(manifestUrl, function(data) {
+      var tileSources = [];
+      if (data.hasOwnProperty('sequences')) {
+        window.data = data;
+        $.each(data.sequences[0].canvases, function(_k, val) {
+          window.val = val;
+          tileSources.push({
+            tileSource: val.images[0].resource.service['@id'] + '/info.json',
+            referenceStripThumbnailUrl: val.thumbnail
+          });
+        });
+      }
+      else if (data.hasOwnProperty('items')) {
+        window.data = data;
+        $.each(data.items, function(_k, val) {
+          window.val = val;
+          tileSources.push({
+            tileSource: val.items[0].items[0].body.id
+            // referenceStripThumbnailUrl: val.thumbnail
+          });
+        });
+      }
+
+      OpenSeadragon({
+        id: "osd",
+        preload: true,
+        sequenceMode: true,
+        prefixUrl: "{{ '/assets/openseadragon/images/' | absolute_url }}",
+        tileSources: tileSources,
+        showReferenceStrip: true,
+      });
+    });
+  });
+</script>

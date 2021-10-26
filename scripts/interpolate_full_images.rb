@@ -24,6 +24,7 @@ metadata.map! do |meta|
   WaxTasks::Record.new(meta).tap do |r|
     thumb = r.hash.dig 'thumbnail'
     return if thumb.nil?
+    return if r.hash.dig('full')&.empty?
 
     fullpath = thumb.gsub '250', '1140'
     r.set 'full', fullpath

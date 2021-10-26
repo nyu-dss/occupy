@@ -8,7 +8,7 @@ copyright:        ''
 permalink:        pretty
 theme:            wax_theme
 source:           source
-incremental:      true
+incremental:      false
 
 collections:
   themes:
