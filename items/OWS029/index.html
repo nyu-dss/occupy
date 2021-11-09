@@ -18,7 +18,7 @@
 
 
   <body>
-    <time datetime='2021-10-14 21:09'></time>
+    <time datetime='2021-11-09 17:15'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
    <h1 class="site-title centered">
@@ -105,12 +105,27 @@
     var manifestUrl = "/occupy/img/derivatives/iiif/OWS029/manifest.json";
     $.getJSON(manifestUrl, function(data) {
       var tileSources = [];
-      $.each(data.sequences[0].canvases, function(_k, val) {
-        tileSources.push({
-          tileSource: val.images[0].resource.service['@id'] + '/info.json',
-          referenceStripThumbnailUrl: val.thumbnail
+      if (data.hasOwnProperty('sequences')) {
+        window.data = data;
+        $.each(data.sequences[0].canvases, function(_k, val) {
+          window.val = val;
+          tileSources.push({
+            tileSource: val.images[0].resource.service['@id'] + '/info.json',
+            referenceStripThumbnailUrl: val.thumbnail
+          });
         });
-      });
+      }
+      else if (data.hasOwnProperty('items')) {
+        window.data = data;
+        $.each(data.items, function(_k, val) {
+          window.val = val;
+          tileSources.push({
+            tileSource: val.items[0].items[0].body.id
+            // referenceStripThumbnailUrl: val.thumbnail
+          });
+        });
+      }
+
       OpenSeadragon({
         id: "osd",
         preload: true,
@@ -205,12 +220,6 @@
   
     
 
-    
-      
-        <dt>Rights & Permissions</dt>
-        
-          <dd>Any rights (including copyright and related rights to publicity and privacy) held by the Occupy Wall Street Archives Working Group, the creator of this collection, were relinquished and transferred to the public domain in 2013 by Amy Roberts. These materials are governed by a Creative Commons CC0 license, which permits publication and reproduction of materials accompanied by full attribution. See, https://creativecommons.org/licenses/.</dd>
-        
     
   
     

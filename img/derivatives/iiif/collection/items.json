@@ -5,29 +5,9 @@
   "label": "items",
   "manifests": [
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS050/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS050"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS003/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS003"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS057/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS057"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS068/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS068"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS066/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS066"
     },
     {
       "@id": "/occupy/img/derivatives/iiif/OWS016/manifest.json",
@@ -45,29 +25,9 @@
       "label": "OWS004"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS067/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS067"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS060/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS060"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS014/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS014"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS069/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS069"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS051/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS051"
     },
     {
       "@id": "/occupy/img/derivatives/iiif/OWS005/manifest.json",
@@ -110,36 +70,6 @@
       "label": "OWS013"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS048/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS048"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS075/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS075"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS061/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS061"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS049/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS049"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS077/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS077"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS063/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS063"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS011/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS011"
@@ -155,36 +85,6 @@
       "label": "OWS027"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS073/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS073"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS074/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS074"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS045/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS045"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS065/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS065"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS071/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS071"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS059/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS059"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS028/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS028"
@@ -198,21 +98,6 @@
       "@id": "/occupy/img/derivatives/iiif/OWS017/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS017"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS058/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS058"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS064/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS064"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS072/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS072"
     },
     {
       "@id": "/occupy/img/derivatives/iiif/OWS009/manifest.json",
@@ -240,29 +125,9 @@
       "label": "OWS007"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS054/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS054"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS053/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS053"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS040/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS040"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS062/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS062"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS056/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS056"
     },
     {
       "@id": "/occupy/img/derivatives/iiif/OWS042/manifest.json",
@@ -270,54 +135,14 @@
       "label": "OWS042"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS081/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS081"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS008/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS008"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS080/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS080"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS052/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS052"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS043/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS043"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS055/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS055"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS046/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS046"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS044/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS044"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS078/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS078"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS079/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS079"
     },
     {
       "@id": "/occupy/img/derivatives/iiif/OWS022/manifest.json",
@@ -360,11 +185,6 @@
       "label": "OWS018"
     },
     {
-      "@id": "/occupy/img/derivatives/iiif/OWS070/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS070"
-    },
-    {
       "@id": "/occupy/img/derivatives/iiif/OWS012/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS012"
@@ -383,16 +203,6 @@
       "@id": "/occupy/img/derivatives/iiif/OWS033/manifest.json",
       "@type": "sc:Manifest",
       "label": "OWS033"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS047/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS047"
-    },
-    {
-      "@id": "/occupy/img/derivatives/iiif/OWS076/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "OWS076"
     },
     {
       "@id": "/occupy/img/derivatives/iiif/OWS025/manifest.json",

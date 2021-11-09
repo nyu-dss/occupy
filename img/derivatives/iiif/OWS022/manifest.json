@@ -42,5 +42,6 @@
       ]
     }
   ],
-  "full": "/occupy/img/derivatives/iiif/images/OWS022/full/full/0/default.jpg"
+  "full": "/occupy/img/derivatives/iiif/images/OWS022/full/full/0/default.jpg",
+  "fullwidth": "/occupy/img/derivatives/iiif/images/OWS022/full/1140,/0/default.jpg"
 }
