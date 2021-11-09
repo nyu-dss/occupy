@@ -20,7 +20,7 @@ layout: default
 <div class='item-view'>
   <span class='pagination-link' id='prevlink'></span>
   {% if viewer == 'openseadragon' and page.manifest.size > 0  %}
-    {% include osd_iiif_image_viewer.html manifest=page.manifest prevlink=prevlink nextlink=nextlink %}
+    {% include osd_v3.html manifest=page.manifest prevlink=prevlink nextlink=nextlink %}
   {% elsif viewer and page.full.size > 0 %}
      {% include simple_image_viewer.html full_image=page.full prevlink=prevlink nextlink=nextlink %}
   {% else %}
